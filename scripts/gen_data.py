@@ -1,12 +1,15 @@
 import pandas as pd
 import json as js
+import argparse
 
 
 if __name__ == "__main__":
-    data_path = '../data/stormdata_2013.csv'
-    outfile_path = 'test.json'
+    parser = argparse.ArgumentParser()
+    parser.add_argument('data_path')
+    parser.add_argument('outfile_path')
+    args = parser.parse_args()
 
-    data = pd.read_csv(data_path)
+    data = pd.read_csv(args.data_path)
     json = {'ditems': [], "themes": [], "perspectives": []}
 
     # ditems :
@@ -55,5 +58,5 @@ if __name__ == "__main__":
         json['perspectives'].append(pers_json.copy())
 
     # save json :
-    with open(outfile_path, 'w') as outfile:
+    with open(args.outfile_path, 'w') as outfile:
         js.dump(json, outfile)
