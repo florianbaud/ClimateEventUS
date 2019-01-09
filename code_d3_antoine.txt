@@ -108,6 +108,7 @@
         .enter()
         .append("path")
         .attr("d", path)
+      	.attr("stroke-width",2)
         .style("fill", function(d){
         var value = d[test.value+"_scaled"].sum_scaled;
         if (value){return color(value);} else {return"#ccc";}
