@@ -3,7 +3,7 @@ import json as js
 
 if __name__ == "__main__":
     
-    data_path = '../data/stormdetails_2017.csv'
+    data_path = '../stormdetails_2017_clean.csv'
     
 
     data = pd.read_csv(data_path)

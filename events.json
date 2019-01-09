@@ -15,19 +15,7 @@
         "name": "Flash Flood"
     },
     {
-        "name": "Marine Thunderstorm Wind"
-    },
-    {
-        "name": "Marine Strong Wind"
-    },
-    {
-        "name": "Marine High Wind"
-    },
-    {
         "name": "Winter Weather"
-    },
-    {
-        "name": "Waterspout"
     },
     {
         "name": "Heavy Rain"
@@ -78,9 +66,6 @@
         "name": "Ice Storm"
     },
     {
-        "name": "Marine Hail"
-    },
-    {
         "name": "Dense Fog"
     },
     {
@@ -94,9 +79,6 @@
     },
     {
         "name": "High Surf"
-    },
-    {
-        "name": "Marine Tropical Storm"
     },
     {
         "name": "Avalanche"
@@ -135,15 +117,9 @@
         "name": "Storm Surge/Tide"
     },
     {
-        "name": "Marine Hurricane/Typhoon"
-    },
-    {
         "name": "Tropical Depression"
     },
     {
         "name": "Dense Smoke"
-    },
-    {
-        "name": "Marine Tropical Depression"
     }
 ]

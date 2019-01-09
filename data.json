@@ -1,2264 +1,3530 @@
 [
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Astronomical Low Tide",
-        "value": 10
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Astronomical Low Tide",
+      "value": 10
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Avalanche",
-        "value": 10
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Avalanche",
+      "value": 10
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Blizzard",
-        "value": 50
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Blizzard",
+      "value": 50
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Coastal Flood",
-        "value": 27
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Coastal Flood",
+      "value": 27
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Cold/Wind Chill",
-        "value": 42
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Cold/Wind Chill",
+      "value": 42
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Debris Flow",
-        "value": 48
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Debris Flow",
+      "value": 48
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Dense Fog",
-        "value": 157
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Dense Fog",
+      "value": 157
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Drought",
-        "value": 226
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Drought",
+      "value": 226
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Extreme Cold/Wind Chill",
-        "value": 88
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Extreme Cold/Wind Chill",
+      "value": 88
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Flash Flood",
-        "value": 113
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Flash Flood",
+      "value": 113
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Flood",
-        "value": 255
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Flood",
+      "value": 255
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Freezing Fog",
-        "value": 3
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Freezing Fog",
+      "value": 3
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Frost/Freeze",
-        "value": 22
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Frost/Freeze",
+      "value": 22
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Funnel Cloud",
-        "value": 11
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Funnel Cloud",
+      "value": 11
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Hail",
-        "value": 174
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Hail",
+      "value": 174
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Heavy Rain",
-        "value": 80
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Heavy Rain",
+      "value": 80
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Heavy Snow",
-        "value": 574
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Heavy Snow",
+      "value": 574
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "High Surf",
-        "value": 67
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "High Surf",
+      "value": 67
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "High Wind",
-        "value": 435
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "High Wind",
+      "value": 435
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Ice Storm",
-        "value": 301
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Ice Storm",
+      "value": 301
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Lake-Effect Snow",
-        "value": 37
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Lake-Effect Snow",
+      "value": 37
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Lightning",
-        "value": 18
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Lightning",
+      "value": 18
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Marine Hail",
-        "value": 1
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Marine Hail",
+      "value": 1
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Marine High Wind",
-        "value": 11
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Marine High Wind",
+      "value": 11
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Marine Strong Wind",
-        "value": 1
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Marine Strong Wind",
+      "value": 1
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Marine Thunderstorm Wind",
-        "value": 81
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Marine Thunderstorm Wind",
+      "value": 81
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Rip Current",
-        "value": 3
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Rip Current",
+      "value": 3
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Sleet",
-        "value": 39
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Sleet",
+      "value": 39
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Sneakerwave",
-        "value": 1
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Sneakerwave",
+      "value": 1
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Strong Wind",
-        "value": 161
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Strong Wind",
+      "value": 161
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Thunderstorm Wind",
-        "value": 541
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Thunderstorm Wind",
+      "value": 541
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Tornado",
-        "value": 170
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Tornado",
+      "value": 170
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Waterspout",
-        "value": 2
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Waterspout",
+      "value": 2
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Wildfire",
-        "value": 16
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Wildfire",
+      "value": 16
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Winter Storm",
-        "value": 715
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Winter Storm",
+      "value": 715
     },
     {
-        "year": 201701,
-        "state": "TOTAL",
-        "produce": "Winter Weather",
-        "value": 1022
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Winter Weather",
+      "value": 1022
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Avalanche",
-        "value": 8
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Dense Smoke",
+      "value": 0
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Blizzard",
-        "value": 93
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Dust Devil",
+      "value": 0
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Coastal Flood",
-        "value": 1
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Dust Storm",
+      "value": 0
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Cold/Wind Chill",
-        "value": 5
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Excessive Heat",
+      "value": 0
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Debris Flow",
-        "value": 85
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Heat",
+      "value": 0
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Dense Fog",
-        "value": 75
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Hurricane",
+      "value": 0
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Drought",
-        "value": 139
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Lakeshore Flood",
+      "value": 0
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Dust Storm",
-        "value": 3
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Marine Hurricane/Typhoon",
+      "value": 0
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Flash Flood",
-        "value": 65
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Depression",
+      "value": 0
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Flood",
-        "value": 282
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Storm",
+      "value": 0
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Frost/Freeze",
-        "value": 2
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Storm Surge/Tide",
+      "value": 0
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Funnel Cloud",
-        "value": 12
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Tropical Depression",
+      "value": 0
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Hail",
-        "value": 500
+      "year": 201701,
+      "state": "TOTAL",
+      "produce": "Tropical Storm",
+      "value": 0
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Heavy Rain",
-        "value": 76
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Avalanche",
+      "value": 8
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Heavy Snow",
-        "value": 336
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Blizzard",
+      "value": 93
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "High Surf",
-        "value": 50
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Coastal Flood",
+      "value": 1
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "High Wind",
-        "value": 572
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Cold/Wind Chill",
+      "value": 5
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Ice Storm",
-        "value": 26
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Debris Flow",
+      "value": 85
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Lake-Effect Snow",
-        "value": 20
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Dense Fog",
+      "value": 75
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Lightning",
-        "value": 5
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Drought",
+      "value": 139
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Marine Hail",
-        "value": 8
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Dust Storm",
+      "value": 3
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Marine High Wind",
-        "value": 4
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Flash Flood",
+      "value": 65
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Marine Strong Wind",
-        "value": 1
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Flood",
+      "value": 282
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Marine Thunderstorm Wind",
-        "value": 116
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Frost/Freeze",
+      "value": 2
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Strong Wind",
-        "value": 61
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Funnel Cloud",
+      "value": 12
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Thunderstorm Wind",
-        "value": 460
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Hail",
+      "value": 500
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Tornado",
-        "value": 83
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Heavy Rain",
+      "value": 76
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Waterspout",
-        "value": 7
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Heavy Snow",
+      "value": 336
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Wildfire",
-        "value": 37
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "High Surf",
+      "value": 50
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Winter Storm",
-        "value": 460
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "High Wind",
+      "value": 572
     },
     {
-        "year": 201702,
-        "state": "TOTAL",
-        "produce": "Winter Weather",
-        "value": 263
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Ice Storm",
+      "value": 26
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Avalanche",
-        "value": 1
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Lake-Effect Snow",
+      "value": 20
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Blizzard",
-        "value": 98
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Lightning",
+      "value": 5
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Coastal Flood",
-        "value": 15
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Marine Hail",
+      "value": 8
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Cold/Wind Chill",
-        "value": 53
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Marine High Wind",
+      "value": 4
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Debris Flow",
-        "value": 9
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Marine Strong Wind",
+      "value": 1
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Dense Fog",
-        "value": 66
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Marine Thunderstorm Wind",
+      "value": 116
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Drought",
-        "value": 140
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Strong Wind",
+      "value": 61
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Dust Storm",
-        "value": 7
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Thunderstorm Wind",
+      "value": 460
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Flash Flood",
-        "value": 78
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Tornado",
+      "value": 83
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Flood",
-        "value": 194
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Waterspout",
+      "value": 7
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Freezing Fog",
-        "value": 1
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Wildfire",
+      "value": 37
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Frost/Freeze",
-        "value": 95
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Winter Storm",
+      "value": 460
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Funnel Cloud",
-        "value": 15
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Winter Weather",
+      "value": 263
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Hail",
-        "value": 1483
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Astronomical Low Tide",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Heavy Rain",
-        "value": 37
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Dense Smoke",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Heavy Snow",
-        "value": 228
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Dust Devil",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "High Surf",
-        "value": 64
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Excessive Heat",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "High Wind",
-        "value": 804
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Extreme Cold/Wind Chill",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Ice Storm",
-        "value": 1
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Freezing Fog",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Lake-Effect Snow",
-        "value": 15
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Heat",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Lightning",
-        "value": 14
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Hurricane",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Marine Hail",
-        "value": 2
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Lakeshore Flood",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Marine High Wind",
-        "value": 15
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Marine Hurricane/Typhoon",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Marine Strong Wind",
-        "value": 5
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Depression",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Marine Thunderstorm Wind",
-        "value": 122
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Storm",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Rip Current",
-        "value": 3
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Rip Current",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Sneakerwave",
-        "value": 2
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Sleet",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Strong Wind",
-        "value": 154
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Sneakerwave",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Thunderstorm Wind",
-        "value": 2091
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Storm Surge/Tide",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Tornado",
-        "value": 220
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Tropical Depression",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Waterspout",
-        "value": 14
+      "year": 201702,
+      "state": "TOTAL",
+      "produce": "Tropical Storm",
+      "value": 0
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Wildfire",
-        "value": 69
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Avalanche",
+      "value": 1
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Winter Storm",
-        "value": 291
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Blizzard",
+      "value": 98
     },
     {
-        "year": 201703,
-        "state": "TOTAL",
-        "produce": "Winter Weather",
-        "value": 381
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Coastal Flood",
+      "value": 15
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Avalanche",
-        "value": 1
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Cold/Wind Chill",
+      "value": 53
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Blizzard",
-        "value": 37
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Debris Flow",
+      "value": 9
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Coastal Flood",
-        "value": 6
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Dense Fog",
+      "value": 66
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Debris Flow",
-        "value": 11
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Drought",
+      "value": 140
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Dense Fog",
-        "value": 28
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Dust Storm",
+      "value": 7
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Drought",
-        "value": 110
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Flash Flood",
+      "value": 78
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Dust Devil",
-        "value": 1
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Flood",
+      "value": 194
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Dust Storm",
-        "value": 3
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Freezing Fog",
+      "value": 1
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Excessive Heat",
-        "value": 1
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Frost/Freeze",
+      "value": 95
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Extreme Cold/Wind Chill",
-        "value": 1
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Funnel Cloud",
+      "value": 15
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Flash Flood",
-        "value": 536
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Hail",
+      "value": 1483
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Flood",
-        "value": 362
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Heavy Rain",
+      "value": 37
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Frost/Freeze",
-        "value": 12
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Heavy Snow",
+      "value": 228
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Funnel Cloud",
-        "value": 17
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "High Surf",
+      "value": 64
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Hail",
-        "value": 1723
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "High Wind",
+      "value": 804
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Heavy Rain",
-        "value": 134
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Ice Storm",
+      "value": 1
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Heavy Snow",
-        "value": 55
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Lake-Effect Snow",
+      "value": 15
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "High Surf",
-        "value": 34
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Lightning",
+      "value": 14
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "High Wind",
-        "value": 222
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Marine Hail",
+      "value": 2
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Ice Storm",
-        "value": 5
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Marine High Wind",
+      "value": 15
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Lakeshore Flood",
-        "value": 1
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Marine Strong Wind",
+      "value": 5
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Lightning",
-        "value": 33
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Marine Thunderstorm Wind",
+      "value": 122
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Marine Hail",
-        "value": 9
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Rip Current",
+      "value": 3
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Marine High Wind",
-        "value": 1
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Sneakerwave",
+      "value": 2
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Marine Strong Wind",
-        "value": 1
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Strong Wind",
+      "value": 154
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Marine Thunderstorm Wind",
-        "value": 217
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Thunderstorm Wind",
+      "value": 2091
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Rip Current",
-        "value": 11
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Tornado",
+      "value": 220
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Strong Wind",
-        "value": 122
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Waterspout",
+      "value": 14
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Thunderstorm Wind",
-        "value": 1520
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Wildfire",
+      "value": 69
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Tornado",
-        "value": 266
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Winter Storm",
+      "value": 291
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Waterspout",
-        "value": 8
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Winter Weather",
+      "value": 381
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Wildfire",
-        "value": 15
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Astronomical Low Tide",
+      "value": 0
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Winter Storm",
-        "value": 146
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Dense Smoke",
+      "value": 0
     },
     {
-        "year": 201704,
-        "state": "TOTAL",
-        "produce": "Winter Weather",
-        "value": 106
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Dust Devil",
+      "value": 0
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Avalanche",
-        "value": 2
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Excessive Heat",
+      "value": 0
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Coastal Flood",
-        "value": 21
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Extreme Cold/Wind Chill",
+      "value": 0
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Debris Flow",
-        "value": 5
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Heat",
+      "value": 0
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Dense Fog",
-        "value": 16
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Hurricane",
+      "value": 0
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Drought",
-        "value": 23
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Lakeshore Flood",
+      "value": 0
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Dust Devil",
-        "value": 2
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Marine Hurricane/Typhoon",
+      "value": 0
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Flash Flood",
-        "value": 339
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Depression",
+      "value": 0
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Flood",
-        "value": 326
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Storm",
+      "value": 0
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Frost/Freeze",
-        "value": 42
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Sleet",
+      "value": 0
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Funnel Cloud",
-        "value": 48
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Storm Surge/Tide",
+      "value": 0
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Hail",
-        "value": 2323
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Tropical Depression",
+      "value": 0
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Heat",
-        "value": 4
+      "year": 201703,
+      "state": "TOTAL",
+      "produce": "Tropical Storm",
+      "value": 0
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Heavy Rain",
-        "value": 96
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Avalanche",
+      "value": 1
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Heavy Snow",
-        "value": 19
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Blizzard",
+      "value": 37
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "High Surf",
-        "value": 22
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Coastal Flood",
+      "value": 6
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "High Wind",
-        "value": 89
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Debris Flow",
+      "value": 11
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Lightning",
-        "value": 49
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Dense Fog",
+      "value": 28
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Marine Hail",
-        "value": 9
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Drought",
+      "value": 110
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Marine Thunderstorm Wind",
-        "value": 435
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Dust Devil",
+      "value": 1
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Rip Current",
-        "value": 5
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Dust Storm",
+      "value": 3
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Strong Wind",
-        "value": 164
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Excessive Heat",
+      "value": 1
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Thunderstorm Wind",
-        "value": 2996
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Extreme Cold/Wind Chill",
+      "value": 1
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Tornado",
-        "value": 326
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Flash Flood",
+      "value": 536
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Waterspout",
-        "value": 15
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Flood",
+      "value": 362
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Wildfire",
-        "value": 15
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Frost/Freeze",
+      "value": 12
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Winter Storm",
-        "value": 72
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Funnel Cloud",
+      "value": 17
     },
     {
-        "year": 201705,
-        "state": "TOTAL",
-        "produce": "Winter Weather",
-        "value": 11
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Hail",
+      "value": 1723
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Coastal Flood",
-        "value": 8
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Heavy Rain",
+      "value": 134
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Debris Flow",
-        "value": 3
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Heavy Snow",
+      "value": 55
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Dense Fog",
-        "value": 1
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "High Surf",
+      "value": 34
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Drought",
-        "value": 38
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "High Wind",
+      "value": 222
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Excessive Heat",
-        "value": 45
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Ice Storm",
+      "value": 5
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Flash Flood",
-        "value": 479
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Lakeshore Flood",
+      "value": 1
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Flood",
-        "value": 235
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Lightning",
+      "value": 33
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Frost/Freeze",
-        "value": 12
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Marine Hail",
+      "value": 9
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Funnel Cloud",
-        "value": 46
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Marine High Wind",
+      "value": 1
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Hail",
-        "value": 1818
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Marine Strong Wind",
+      "value": 1
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Heat",
-        "value": 37
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Marine Thunderstorm Wind",
+      "value": 217
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Heavy Rain",
-        "value": 101
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Rip Current",
+      "value": 11
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "High Surf",
-        "value": 17
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Strong Wind",
+      "value": 122
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "High Wind",
-        "value": 55
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Thunderstorm Wind",
+      "value": 1520
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Lightning",
-        "value": 50
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Tornado",
+      "value": 266
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Marine Hail",
-        "value": 3
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Waterspout",
+      "value": 8
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Marine High Wind",
-        "value": 1
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Wildfire",
+      "value": 15
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Marine Thunderstorm Wind",
-        "value": 299
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Winter Storm",
+      "value": 146
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Marine Tropical Storm",
-        "value": 14
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Winter Weather",
+      "value": 106
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Rip Current",
-        "value": 14
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Astronomical Low Tide",
+      "value": 0
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Storm Surge/Tide",
-        "value": 23
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Cold/Wind Chill",
+      "value": 0
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Strong Wind",
-        "value": 23
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Dense Smoke",
+      "value": 0
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Thunderstorm Wind",
-        "value": 3081
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Freezing Fog",
+      "value": 0
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Tornado",
-        "value": 160
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Heat",
+      "value": 0
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Tropical Storm",
-        "value": 23
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Hurricane",
+      "value": 0
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Waterspout",
-        "value": 34
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Lake-Effect Snow",
+      "value": 0
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Wildfire",
-        "value": 30
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Marine Hurricane/Typhoon",
+      "value": 0
     },
     {
-        "year": 201706,
-        "state": "TOTAL",
-        "produce": "Winter Weather",
-        "value": 1
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Depression",
+      "value": 0
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Coastal Flood",
-        "value": 7
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Storm",
+      "value": 0
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Debris Flow",
-        "value": 7
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Sleet",
+      "value": 0
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Dense Fog",
-        "value": 1
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Sneakerwave",
+      "value": 0
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Drought",
-        "value": 53
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Storm Surge/Tide",
+      "value": 0
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Dust Devil",
-        "value": 2
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Tropical Depression",
+      "value": 0
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Dust Storm",
-        "value": 8
+      "year": 201704,
+      "state": "TOTAL",
+      "produce": "Tropical Storm",
+      "value": 0
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Excessive Heat",
-        "value": 167
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Avalanche",
+      "value": 2
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Flash Flood",
-        "value": 869
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Coastal Flood",
+      "value": 21
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Flood",
-        "value": 361
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Debris Flow",
+      "value": 5
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Funnel Cloud",
-        "value": 47
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Dense Fog",
+      "value": 16
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Hail",
-        "value": 1064
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Drought",
+      "value": 23
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Heat",
-        "value": 313
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Dust Devil",
+      "value": 2
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Heavy Rain",
-        "value": 412
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Flash Flood",
+      "value": 339
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "High Surf",
-        "value": 12
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Flood",
+      "value": 326
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "High Wind",
-        "value": 5
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Frost/Freeze",
+      "value": 42
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Lightning",
-        "value": 112
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Funnel Cloud",
+      "value": 48
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Marine Hail",
-        "value": 3
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Hail",
+      "value": 2323
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Marine Thunderstorm Wind",
-        "value": 388
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Heat",
+      "value": 4
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Rip Current",
-        "value": 12
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Heavy Rain",
+      "value": 96
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Strong Wind",
-        "value": 6
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Heavy Snow",
+      "value": 19
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Thunderstorm Wind",
-        "value": 2991
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "High Surf",
+      "value": 22
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Tornado",
-        "value": 88
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "High Wind",
+      "value": 89
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Tropical Storm",
-        "value": 6
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Lightning",
+      "value": 49
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Waterspout",
-        "value": 60
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Marine Hail",
+      "value": 9
     },
     {
-        "year": 201707,
-        "state": "TOTAL",
-        "produce": "Wildfire",
-        "value": 65
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Marine Thunderstorm Wind",
+      "value": 435
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Astronomical Low Tide",
-        "value": 1
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Rip Current",
+      "value": 5
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Coastal Flood",
-        "value": 8
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Strong Wind",
+      "value": 164
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Debris Flow",
-        "value": 8
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Thunderstorm Wind",
+      "value": 2996
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Dense Fog",
-        "value": 24
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Tornado",
+      "value": 326
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Dense Smoke",
-        "value": 5
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Waterspout",
+      "value": 15
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Drought",
-        "value": 64
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Wildfire",
+      "value": 15
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Dust Storm",
-        "value": 3
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Winter Storm",
+      "value": 72
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Excessive Heat",
-        "value": 20
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Winter Weather",
+      "value": 11
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Flash Flood",
-        "value": 760
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Astronomical Low Tide",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Flood",
-        "value": 163
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Blizzard",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Funnel Cloud",
-        "value": 43
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Cold/Wind Chill",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Hail",
-        "value": 769
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Dense Smoke",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Heat",
-        "value": 131
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Dust Storm",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Heavy Rain",
-        "value": 346
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Excessive Heat",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "High Surf",
-        "value": 3
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Extreme Cold/Wind Chill",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "High Wind",
-        "value": 7
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Freezing Fog",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Hurricane",
-        "value": 9
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Hurricane",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Lightning",
-        "value": 52
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Ice Storm",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Marine Hail",
-        "value": 5
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Lake-Effect Snow",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Marine High Wind",
-        "value": 1
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Lakeshore Flood",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Marine Hurricane/Typhoon",
-        "value": 6
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Marine High Wind",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Marine Thunderstorm Wind",
-        "value": 203
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Marine Hurricane/Typhoon",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Marine Tropical Storm",
-        "value": 3
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Marine Strong Wind",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Rip Current",
-        "value": 16
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Depression",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Storm Surge/Tide",
-        "value": 10
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Storm",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Strong Wind",
-        "value": 17
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Sleet",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Thunderstorm Wind",
-        "value": 1482
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Sneakerwave",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Tornado",
-        "value": 129
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Storm Surge/Tide",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Tropical Storm",
-        "value": 44
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Tropical Depression",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Waterspout",
-        "value": 31
+      "year": 201705,
+      "state": "TOTAL",
+      "produce": "Tropical Storm",
+      "value": 0
     },
     {
-        "year": 201708,
-        "state": "TOTAL",
-        "produce": "Wildfire",
-        "value": 39
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Coastal Flood",
+      "value": 8
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Avalanche",
-        "value": 1
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Debris Flow",
+      "value": 3
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Coastal Flood",
-        "value": 21
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Dense Fog",
+      "value": 1
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Debris Flow",
-        "value": 8
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Drought",
+      "value": 38
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Dense Fog",
-        "value": 27
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Excessive Heat",
+      "value": 45
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Dense Smoke",
-        "value": 11
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Flash Flood",
+      "value": 479
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Drought",
-        "value": 56
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Flood",
+      "value": 235
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Dust Devil",
-        "value": 1
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Frost/Freeze",
+      "value": 12
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Dust Storm",
-        "value": 13
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Funnel Cloud",
+      "value": 46
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Excessive Heat",
-        "value": 15
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Hail",
+      "value": 1818
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Flash Flood",
-        "value": 217
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Heat",
+      "value": 37
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Flood",
-        "value": 63
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Heavy Rain",
+      "value": 101
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Frost/Freeze",
-        "value": 30
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "High Surf",
+      "value": 17
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Funnel Cloud",
-        "value": 11
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "High Wind",
+      "value": 55
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Hail",
-        "value": 294
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Lightning",
+      "value": 50
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Heat",
-        "value": 3
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Marine Hail",
+      "value": 3
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Heavy Rain",
-        "value": 59
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Marine High Wind",
+      "value": 1
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Heavy Snow",
-        "value": 6
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Marine Thunderstorm Wind",
+      "value": 299
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "High Surf",
-        "value": 25
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Storm",
+      "value": 14
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "High Wind",
-        "value": 79
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Rip Current",
+      "value": 14
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Hurricane",
-        "value": 35
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Storm Surge/Tide",
+      "value": 23
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Lightning",
-        "value": 24
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Strong Wind",
+      "value": 23
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Marine Hurricane/Typhoon",
-        "value": 3
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Thunderstorm Wind",
+      "value": 3081
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Marine Thunderstorm Wind",
-        "value": 68
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Tornado",
+      "value": 160
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Marine Tropical Storm",
-        "value": 27
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Tropical Storm",
+      "value": 23
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Rip Current",
-        "value": 8
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Waterspout",
+      "value": 34
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Storm Surge/Tide",
-        "value": 22
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Wildfire",
+      "value": 30
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Strong Wind",
-        "value": 37
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Winter Weather",
+      "value": 1
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Thunderstorm Wind",
-        "value": 546
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Astronomical Low Tide",
+      "value": 0
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Tornado",
-        "value": 55
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Avalanche",
+      "value": 0
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Tropical Depression",
-        "value": 14
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Blizzard",
+      "value": 0
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Tropical Storm",
-        "value": 245
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Cold/Wind Chill",
+      "value": 0
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Waterspout",
-        "value": 36
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Dense Smoke",
+      "value": 0
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Wildfire",
-        "value": 36
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Dust Devil",
+      "value": 0
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Winter Storm",
-        "value": 18
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Dust Storm",
+      "value": 0
     },
     {
-        "year": 201709,
-        "state": "TOTAL",
-        "produce": "Winter Weather",
-        "value": 8
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Extreme Cold/Wind Chill",
+      "value": 0
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Blizzard",
-        "value": 1
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Freezing Fog",
+      "value": 0
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Coastal Flood",
-        "value": 50
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Heavy Snow",
+      "value": 0
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Debris Flow",
-        "value": 4
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Hurricane",
+      "value": 0
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Dense Fog",
-        "value": 6
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Ice Storm",
+      "value": 0
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Drought",
-        "value": 55
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Lake-Effect Snow",
+      "value": 0
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Dust Storm",
-        "value": 1
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Lakeshore Flood",
+      "value": 0
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Excessive Heat",
-        "value": 12
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Marine Hurricane/Typhoon",
+      "value": 0
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Extreme Cold/Wind Chill",
-        "value": 1
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Marine Strong Wind",
+      "value": 0
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Flash Flood",
-        "value": 118
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Depression",
+      "value": 0
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Flood",
-        "value": 141
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Sleet",
+      "value": 0
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Freezing Fog",
-        "value": 1
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Sneakerwave",
+      "value": 0
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Frost/Freeze",
-        "value": 137
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Tropical Depression",
+      "value": 0
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Funnel Cloud",
-        "value": 2
+      "year": 201706,
+      "state": "TOTAL",
+      "produce": "Winter Storm",
+      "value": 0
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Hail",
-        "value": 178
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Coastal Flood",
+      "value": 7
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Heat",
-        "value": 2
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Debris Flow",
+      "value": 7
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Heavy Rain",
-        "value": 85
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Dense Fog",
+      "value": 1
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Heavy Snow",
-        "value": 19
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Drought",
+      "value": 53
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "High Surf",
-        "value": 37
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Dust Devil",
+      "value": 2
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "High Wind",
-        "value": 545
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Dust Storm",
+      "value": 8
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Hurricane",
-        "value": 1
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Excessive Heat",
+      "value": 167
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Lakeshore Flood",
-        "value": 9
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Flash Flood",
+      "value": 869
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Lightning",
-        "value": 6
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Flood",
+      "value": 361
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Marine High Wind",
-        "value": 15
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Funnel Cloud",
+      "value": 47
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Marine Hurricane/Typhoon",
-        "value": 6
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Hail",
+      "value": 1064
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Marine Strong Wind",
-        "value": 1
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Heat",
+      "value": 313
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Marine Thunderstorm Wind",
-        "value": 122
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Heavy Rain",
+      "value": 412
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Marine Tropical Depression",
-        "value": 1
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "High Surf",
+      "value": 12
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Marine Tropical Storm",
-        "value": 18
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "High Wind",
+      "value": 5
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Rip Current",
-        "value": 8
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Lightning",
+      "value": 112
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Storm Surge/Tide",
-        "value": 19
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Marine Hail",
+      "value": 3
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Strong Wind",
-        "value": 108
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Marine Thunderstorm Wind",
+      "value": 388
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Thunderstorm Wind",
-        "value": 428
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Rip Current",
+      "value": 12
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Tornado",
-        "value": 88
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Strong Wind",
+      "value": 6
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Tropical Depression",
-        "value": 3
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Thunderstorm Wind",
+      "value": 2991
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Tropical Storm",
-        "value": 45
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Tornado",
+      "value": 88
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Waterspout",
-        "value": 15
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Tropical Storm",
+      "value": 6
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Wildfire",
-        "value": 18
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Waterspout",
+      "value": 60
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Winter Storm",
-        "value": 65
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Wildfire",
+      "value": 65
     },
     {
-        "year": 201710,
-        "state": "TOTAL",
-        "produce": "Winter Weather",
-        "value": 54
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Astronomical Low Tide",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Avalanche",
-        "value": 2
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Avalanche",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Blizzard",
-        "value": 2
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Blizzard",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Coastal Flood",
-        "value": 11
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Cold/Wind Chill",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Cold/Wind Chill",
-        "value": 1
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Dense Smoke",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Debris Flow",
-        "value": 1
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Extreme Cold/Wind Chill",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Dense Fog",
-        "value": 58
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Freezing Fog",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Drought",
-        "value": 148
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Frost/Freeze",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Flash Flood",
-        "value": 51
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Heavy Snow",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Flood",
-        "value": 69
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Hurricane",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Frost/Freeze",
-        "value": 36
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Ice Storm",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Hail",
-        "value": 51
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Lake-Effect Snow",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Heat",
-        "value": 10
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Lakeshore Flood",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Heavy Rain",
-        "value": 36
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Marine High Wind",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Heavy Snow",
-        "value": 88
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Marine Hurricane/Typhoon",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "High Surf",
-        "value": 29
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Marine Strong Wind",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "High Wind",
-        "value": 402
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Depression",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Lake-Effect Snow",
-        "value": 9
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Storm",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Lightning",
-        "value": 2
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Sleet",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Marine High Wind",
-        "value": 1
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Sneakerwave",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Marine Thunderstorm Wind",
-        "value": 9
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Storm Surge/Tide",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Strong Wind",
-        "value": 176
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Tropical Depression",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Thunderstorm Wind",
-        "value": 299
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Winter Storm",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Tornado",
-        "value": 49
+      "year": 201707,
+      "state": "TOTAL",
+      "produce": "Winter Weather",
+      "value": 0
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Waterspout",
-        "value": 6
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Astronomical Low Tide",
+      "value": 1
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Wildfire",
-        "value": 8
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Coastal Flood",
+      "value": 8
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Winter Storm",
-        "value": 80
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Debris Flow",
+      "value": 8
     },
     {
-        "year": 201711,
-        "state": "TOTAL",
-        "produce": "Winter Weather",
-        "value": 44
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Dense Fog",
+      "value": 24
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Astronomical Low Tide",
-        "value": 2
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Dense Smoke",
+      "value": 5
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Avalanche",
-        "value": 2
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Drought",
+      "value": 64
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Blizzard",
-        "value": 68
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Dust Storm",
+      "value": 3
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Cold/Wind Chill",
-        "value": 184
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Excessive Heat",
+      "value": 20
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Debris Flow",
-        "value": 2
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Flash Flood",
+      "value": 760
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Dense Fog",
-        "value": 46
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Flood",
+      "value": 163
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Drought",
-        "value": 167
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Funnel Cloud",
+      "value": 43
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Dust Storm",
-        "value": 1
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Hail",
+      "value": 769
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Extreme Cold/Wind Chill",
-        "value": 366
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Heat",
+      "value": 131
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Flash Flood",
-        "value": 37
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Heavy Rain",
+      "value": 346
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Flood",
-        "value": 16
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "High Surf",
+      "value": 3
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Frost/Freeze",
-        "value": 21
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "High Wind",
+      "value": 7
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Funnel Cloud",
-        "value": 3
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Hurricane",
+      "value": 9
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Hail",
-        "value": 21
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Lightning",
+      "value": 52
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Heavy Rain",
-        "value": 7
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Marine Hail",
+      "value": 5
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Heavy Snow",
-        "value": 355
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Marine High Wind",
+      "value": 1
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "High Surf",
-        "value": 76
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Marine Hurricane/Typhoon",
+      "value": 6
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "High Wind",
-        "value": 319
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Marine Thunderstorm Wind",
+      "value": 203
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Ice Storm",
-        "value": 6
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Storm",
+      "value": 3
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Lake-Effect Snow",
-        "value": 88
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Rip Current",
+      "value": 16
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Marine High Wind",
-        "value": 10
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Storm Surge/Tide",
+      "value": 10
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Marine Strong Wind",
-        "value": 1
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Strong Wind",
+      "value": 17
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Marine Thunderstorm Wind",
-        "value": 28
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Thunderstorm Wind",
+      "value": 1482
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Strong Wind",
-        "value": 67
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Tornado",
+      "value": 129
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Thunderstorm Wind",
-        "value": 36
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Tropical Storm",
+      "value": 44
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Tornado",
-        "value": 13
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Waterspout",
+      "value": 31
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Waterspout",
-        "value": 4
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Wildfire",
+      "value": 39
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Wildfire",
-        "value": 10
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Avalanche",
+      "value": 0
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Winter Storm",
-        "value": 397
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Blizzard",
+      "value": 0
     },
     {
-        "year": 201712,
-        "state": "TOTAL",
-        "produce": "Winter Weather",
-        "value": 916
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Cold/Wind Chill",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Dust Devil",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Extreme Cold/Wind Chill",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Freezing Fog",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Frost/Freeze",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Heavy Snow",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Ice Storm",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Lake-Effect Snow",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Lakeshore Flood",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Marine Strong Wind",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Depression",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Sleet",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Sneakerwave",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Tropical Depression",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Winter Storm",
+      "value": 0
+    },
+    {
+      "year": 201708,
+      "state": "TOTAL",
+      "produce": "Winter Weather",
+      "value": 0
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Avalanche",
+      "value": 1
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Coastal Flood",
+      "value": 21
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Debris Flow",
+      "value": 8
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Dense Fog",
+      "value": 27
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Dense Smoke",
+      "value": 11
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Drought",
+      "value": 56
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Dust Devil",
+      "value": 1
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Dust Storm",
+      "value": 13
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Excessive Heat",
+      "value": 15
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Flash Flood",
+      "value": 217
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Flood",
+      "value": 63
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Frost/Freeze",
+      "value": 30
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Funnel Cloud",
+      "value": 11
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Hail",
+      "value": 294
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Heat",
+      "value": 3
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Heavy Rain",
+      "value": 59
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Heavy Snow",
+      "value": 6
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "High Surf",
+      "value": 25
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "High Wind",
+      "value": 79
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Hurricane",
+      "value": 35
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Lightning",
+      "value": 24
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Marine Hurricane/Typhoon",
+      "value": 3
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Marine Thunderstorm Wind",
+      "value": 68
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Storm",
+      "value": 27
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Rip Current",
+      "value": 8
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Storm Surge/Tide",
+      "value": 22
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Strong Wind",
+      "value": 37
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Thunderstorm Wind",
+      "value": 546
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Tornado",
+      "value": 55
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Tropical Depression",
+      "value": 14
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Tropical Storm",
+      "value": 245
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Waterspout",
+      "value": 36
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Wildfire",
+      "value": 36
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Winter Storm",
+      "value": 18
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Winter Weather",
+      "value": 8
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Astronomical Low Tide",
+      "value": 0
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Blizzard",
+      "value": 0
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Cold/Wind Chill",
+      "value": 0
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Extreme Cold/Wind Chill",
+      "value": 0
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Freezing Fog",
+      "value": 0
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Ice Storm",
+      "value": 0
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Lake-Effect Snow",
+      "value": 0
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Lakeshore Flood",
+      "value": 0
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Marine Hail",
+      "value": 0
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Marine High Wind",
+      "value": 0
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Marine Strong Wind",
+      "value": 0
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Depression",
+      "value": 0
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Sleet",
+      "value": 0
+    },
+    {
+      "year": 201709,
+      "state": "TOTAL",
+      "produce": "Sneakerwave",
+      "value": 0
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Blizzard",
+      "value": 1
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Coastal Flood",
+      "value": 50
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Debris Flow",
+      "value": 4
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Dense Fog",
+      "value": 6
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Drought",
+      "value": 55
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Dust Storm",
+      "value": 1
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Excessive Heat",
+      "value": 12
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Extreme Cold/Wind Chill",
+      "value": 1
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Flash Flood",
+      "value": 118
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Flood",
+      "value": 141
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Freezing Fog",
+      "value": 1
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Frost/Freeze",
+      "value": 137
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Funnel Cloud",
+      "value": 2
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Hail",
+      "value": 178
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Heat",
+      "value": 2
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Heavy Rain",
+      "value": 85
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Heavy Snow",
+      "value": 19
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "High Surf",
+      "value": 37
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "High Wind",
+      "value": 545
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Hurricane",
+      "value": 1
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Lakeshore Flood",
+      "value": 9
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Lightning",
+      "value": 6
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Marine High Wind",
+      "value": 15
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Marine Hurricane/Typhoon",
+      "value": 6
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Marine Strong Wind",
+      "value": 1
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Marine Thunderstorm Wind",
+      "value": 122
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Depression",
+      "value": 1
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Storm",
+      "value": 18
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Rip Current",
+      "value": 8
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Storm Surge/Tide",
+      "value": 19
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Strong Wind",
+      "value": 108
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Thunderstorm Wind",
+      "value": 428
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Tornado",
+      "value": 88
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Tropical Depression",
+      "value": 3
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Tropical Storm",
+      "value": 45
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Waterspout",
+      "value": 15
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Wildfire",
+      "value": 18
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Winter Storm",
+      "value": 65
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Winter Weather",
+      "value": 54
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Astronomical Low Tide",
+      "value": 0
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Avalanche",
+      "value": 0
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Cold/Wind Chill",
+      "value": 0
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Dense Smoke",
+      "value": 0
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Dust Devil",
+      "value": 0
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Ice Storm",
+      "value": 0
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Lake-Effect Snow",
+      "value": 0
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Marine Hail",
+      "value": 0
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Sleet",
+      "value": 0
+    },
+    {
+      "year": 201710,
+      "state": "TOTAL",
+      "produce": "Sneakerwave",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Avalanche",
+      "value": 2
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Blizzard",
+      "value": 2
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Coastal Flood",
+      "value": 11
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Cold/Wind Chill",
+      "value": 1
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Debris Flow",
+      "value": 1
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Dense Fog",
+      "value": 58
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Drought",
+      "value": 148
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Flash Flood",
+      "value": 51
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Flood",
+      "value": 69
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Frost/Freeze",
+      "value": 36
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Hail",
+      "value": 51
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Heat",
+      "value": 10
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Heavy Rain",
+      "value": 36
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Heavy Snow",
+      "value": 88
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "High Surf",
+      "value": 29
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "High Wind",
+      "value": 402
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Lake-Effect Snow",
+      "value": 9
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Lightning",
+      "value": 2
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Marine High Wind",
+      "value": 1
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Marine Thunderstorm Wind",
+      "value": 9
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Strong Wind",
+      "value": 176
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Thunderstorm Wind",
+      "value": 299
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Tornado",
+      "value": 49
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Waterspout",
+      "value": 6
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Wildfire",
+      "value": 8
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Winter Storm",
+      "value": 80
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Winter Weather",
+      "value": 44
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Astronomical Low Tide",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Dense Smoke",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Dust Devil",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Excessive Heat",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Extreme Cold/Wind Chill",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Freezing Fog",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Funnel Cloud",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Hurricane",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Ice Storm",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Lakeshore Flood",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Marine Hail",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Marine Hurricane/Typhoon",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Marine Strong Wind",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Depression",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Storm",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Rip Current",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Sleet",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Sneakerwave",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Storm Surge/Tide",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Tropical Depression",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Tropical Storm",
+      "value": 0
+    },
+    {
+      "year": 201711,
+      "state": "TOTAL",
+      "produce": "Dust Storm",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Astronomical Low Tide",
+      "value": 2
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Avalanche",
+      "value": 2
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Blizzard",
+      "value": 68
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Cold/Wind Chill",
+      "value": 184
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Debris Flow",
+      "value": 2
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Dense Fog",
+      "value": 46
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Drought",
+      "value": 167
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Dust Storm",
+      "value": 1
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Extreme Cold/Wind Chill",
+      "value": 366
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Flash Flood",
+      "value": 37
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Flood",
+      "value": 16
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Frost/Freeze",
+      "value": 21
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Funnel Cloud",
+      "value": 3
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Hail",
+      "value": 21
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Heavy Rain",
+      "value": 7
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Heavy Snow",
+      "value": 355
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "High Surf",
+      "value": 76
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "High Wind",
+      "value": 319
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Ice Storm",
+      "value": 6
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Lake-Effect Snow",
+      "value": 88
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Marine High Wind",
+      "value": 10
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Marine Strong Wind",
+      "value": 1
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Marine Thunderstorm Wind",
+      "value": 28
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Strong Wind",
+      "value": 67
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Thunderstorm Wind",
+      "value": 36
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Tornado",
+      "value": 13
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Waterspout",
+      "value": 4
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Wildfire",
+      "value": 10
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Winter Storm",
+      "value": 397
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Winter Weather",
+      "value": 916
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Coastal Flood",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Dense Smoke",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Dust Devil",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Excessive Heat",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Freezing Fog",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Heat",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Hurricane",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Lakeshore Flood",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Lightning",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Marine Hail",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Marine Hurricane/Typhoon",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Depression",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Marine Tropical Storm",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Rip Current",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Sleet",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Sneakerwave",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Storm Surge/Tide",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Tropical Depression",
+      "value": 0
+    },
+    {
+      "year": 201712,
+      "state": "TOTAL",
+      "produce": "Tropical Storm",
+      "value": 0
     }
-]
+  ]
