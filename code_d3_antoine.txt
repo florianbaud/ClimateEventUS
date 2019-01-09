@@ -113,13 +113,15 @@
         if (value){return color(value);} else {return"#ccc";}
       })
         .on("mousemove", function(d){
+        d3.select(this).style("stroke","#000000");
         var mouse = d3.mouse(svg.node()).map(function(d){return parseInt(d);});
         tooltip.classed("hidden", false)
           .attr("style", "left:" + (mouse[0]+15)+"px;top:"+(mouse[1]-35)+"px")
-          .html("<center><b>" + d.properties.name +"</b></br>" + "Injuries : " + d[test.value].total_injuries + "</br>" +  "Deaths : "+ d[test.value].total_deaths + "</br>" + "Damage : " + d[test.value].total_damages + " $ </center>" );
+          .html("<center><b>" + d.properties.name +"</b></br><i>" + d[test.value].nb_event + " events</i></br>Injuries : " + d[test.value].total_injuries + "</br>" +  "Deaths : "+ d[test.value].total_deaths + "</br>" + "Damage : " + d[test.value].total_damages + " $ </center>" );
       		}
         )
         .on("mouseout", function(){
+        d3.select(this).style("stroke","");
         tooltip.classed("hidden", true);
       		}
         );
@@ -135,6 +137,7 @@
           .domain([d3.min(values),d3.max(values)]);
           // svg
           svg.selectAll("path")
+          	.transition(duration=500)
             .style("fill", function(d){
             var value = d[test.value+"_scaled"].sum_scaled;
             if (value){return color(value);} else {return"#ccc";}
