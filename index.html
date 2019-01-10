@@ -63,7 +63,7 @@
 
     .line {
         stroke: #ccc;
-        stroke-width: 2;
+        stroke-width: 5;
         fill: none;
     }
 
@@ -111,10 +111,10 @@
 <body id='body'>
     <div class="container-fluid" id='main'>
         <div class="row">
-            <div class="col-md-6">
-                <h1>Impact des événements climatiques sur le prix des assurances</h1>
+            <div class="col-md-7">
+                <h1 id='title'>Impact des événements climatiques sur le prix des assurances aux US</h1>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <form class="form-inline">
                     <div class="form-group mx-sm-3 mt-2">
                         <label class="mr-sm-2" for="events">Evènement :</label>
@@ -438,10 +438,12 @@
         mapchart();
         wordcloud();
         var bt = document.getElementById('switch');
+        var title = document.getElementById('title');
         bt.addEventListener('click', function () {
             if (bt.value == 1) {
                 bt.value = 2;
                 bt.text = 'Line Chart';
+                title.innerText = 'Impact des événements climatiques sur le prix des assurances aux US';
                 var line = document.getElementById('line')
                 document.getElementById('linechart').removeChild(line);
                 mapchart();
@@ -449,6 +451,7 @@
             } else {
                 bt.value = 1;
                 bt.text = 'Map';
+                title.innerText = "Evolution des événements climatiques au fil de l'année aux US";
                 var map = document.getElementById('mapchart')
                 var tooltip = document.getElementById('tooltip')
                 var wordcloudel = document.getElementById('wordcloudsvg')
