@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -28,29 +28,23 @@
     body {
         background-color: #e9ebee;
     }
-
     #wordcloudsvg {
         position: absolute;
     }
-
     #button {
         text-align: center;
     }
-
     .province {
         fill: #000;
         stroke: #fff;
         stroke-width: 1px;
     }
-
     .province:hover {
         fill: #666;
     }
-
     .hidden {
         display: none;
     }
-
     div.tooltip {
         color: #222;
         background-color: #fff;
@@ -60,13 +54,11 @@
         opacity: 0.9;
         position: absolute;
     }
-
     .line {
         stroke: #ccc;
         stroke-width: 2;
         fill: none;
     }
-
     .axis path,
     .axis line {
         fill: none;
@@ -74,7 +66,6 @@
         stroke-width: 1;
         shape-rendering: crispEdges;
     }
-
     #legendContainer {
         position: absolute;
         top: 60px;
@@ -83,22 +74,18 @@
         height: 490px;
         width: 110px;
     }
-
     #legend {
         width: 90px;
         height: 200px;
     }
-
     .legend {
         font-size: 12px;
         font-weight: normal;
         text-anchor: left;
     }
-
     .legendcheckbox {
         cursor: pointer;
     }
-
     input {
         border-radius: 5px;
         padding: 5px 10px;
@@ -140,15 +127,12 @@
             var result = [];
             json.forEach(function (val, idx, arr) {
                 if (val[key] == value) {
-
                     result.push(val)
                 }
             })
             return result;
         }
-
         function linechart() {
-
             // Set the dimensions of the canvas / graph
             // var margin = { top: 50, right: 20, bottom: 30, left: 160 }
             var margin = { top: 50, right: 20, bottom: 30, left: 70 },
@@ -180,7 +164,6 @@
             var data;
             // Get the data
             d3v3.json("data.json", function (error, json) {
-
                 json.forEach(function (d) {
                     d.value = +d.value;
                 });
@@ -189,16 +172,12 @@
                         var sect = document.getElementById("events");
                         var section = sect.options[sect.selectedIndex].value;
                         data = filterJSON(json, 'produce', section);
-
                         //debugger
-
                         data.forEach(function (d) {
                             d.value = +d.value;
                             //d.year = parseDate(String(d.year));
                             d.active = true;
                         });
-
-
                         //debugger
                         updateGraph(data);
                         jQuery('h1.page-header').html(section);
@@ -209,7 +188,6 @@
             });
             var color = d3v3.scale.ordinal().range(["#48A36D", "#0096ff", "#ff007e"]);
             function updateGraph(data) {
-
                 // Scale the range of the data
                 x.domain(d3v3.extent(data, function (d) { return d.year; }));
                 y.domain([d3v3.min(data, function (d) { return d.value; }), d3v3.max(data, function (d) { return d.value; })]);
@@ -221,8 +199,6 @@
                     return $("." + val.key).attr("fill") != "#ccc"
                     // matching the data with selector status
                 })
-
-
                 var state = svg.selectAll(".line")
                     .data(result, function (d) { return d.key });
                 state.enter().append("path")
@@ -231,7 +207,6 @@
                     .style("stroke", function (d, i) { return d.color = color(d.key); })
                     .attr("id", function (d) { return 'tag' + d.key.replace(/\s+/g, ''); }) // assign ID
                     .attr("d", function (d) {
-
                         return stateline(d.values)
                     });
                 state.exit().remove();
@@ -246,12 +221,10 @@
                     .attr("y", function (d, i) { return 0 + i * 15; }) // spacing
                     .attr("fill", function (d) {
                         return color(d.key);
-
                     })
                     .attr("class", function (d, i) { return "legendcheckbox " + d.key })
                     .on("click", function (d) {
                         d.active = !d.active;
-
                         d3v3.select(this).attr("fill", function (d) {
                             if (d3v3.select(this).attr("fill") == "#ccc") {
                                 return color(d.key);
@@ -259,13 +232,10 @@
                                 return "#ccc";
                             }
                         })
-
-
                         var result = dataNest.filter(function (val, idx, arr) {
                             return $("." + val.key).attr("fill") != "#ccc"
                             // matching the data with selector status
                         })
-
                         // Hide or show the lines based on the ID
                         svg.selectAll(".line").data(result, function (d) { return d.key })
                             .enter()
@@ -275,11 +245,8 @@
                             .attr("d", function (d) {
                                 return stateline(d.values);
                             });
-
                         svg.selectAll(".line").data(result, function (d) { return d.key }).exit().remove()
-
                     })
-
                 // Add the Legend text
                 legend.enter().append("text")
                     .attr("x", 15)
@@ -304,43 +271,35 @@
     </script>
     <script>
         function mapchart() {
-
             var width = 875,
                 height = 501;
-
             var svg2 = d3.select("body")
                 .append("svg")
                 .attr("width", width)
                 .attr("height", height)
                 // .attr('transform','translate(-75,0)')
                 .attr("id", "mapchart");
-
             var projection = d3.geoAlbersUsa().translate([width / 2, height / 2])
             var path = d3.geoPath().projection(projection);
-
             var tooltip = d3.select("body").append("div")
                 .attr("class", "hidden tooltip")
                 .attr("id", 'tooltip');
-
             // map
-
             d3.json("us_states.json", function (json) {
-
-                // on récupère les valeurs de sum_scaled
+                // on r�cup�re les valeurs de sum_scaled
                 var values = [];
                 for (var i = 0; i < json.features.length; i++) {
-                    values.push(json.features[i][test.value+"_scaled"].sum_scaled;
+                    values.push(json.features[i][test.value + "_scaled"].sum_scaled);
                 }
                 var color = d3.scaleSequential(d3.interpolateYlOrRd)
                     .domain([d3.min(values), d3.max(values)]);
-
                 svg2.selectAll("path")
                     .data(json.features)
                     .enter()
                     .append("path")
                     .attr("d", path)
                     .style("fill", function (d) {
-                        var value = d[test.value+"_scaled"].sum_scaled;
+                        var value = d[test.value + "_scaled"].sum_scaled;
                         if (value) { return color(value); } else { return "#ccc"; }
                     })
                     .on("mousemove", function (d) {
@@ -355,7 +314,6 @@
                         tooltip.classed("hidden", true);
                     }
                     );
-
                 d3.select('#events')
                     .on("change", function () {
                         // on r�cup�re les valeurs de sum_scaled
@@ -372,16 +330,13 @@
                                 var value = d[test.value + "_scaled"].sum_scaled;
                                 if (value) { return color(value); } else { return "#ccc"; }
                             })
-
                     });
-
             }
             )
         }
     </script>
     <script>
         var form = d3v3.select('#events');
-
         d3v3.json('./events.json', function (err, data) {
             form.selectAll('option')
                 .data(data)
@@ -394,11 +349,8 @@
                     return d.name;
                 });
         });
-
         var test = document.getElementById('events');
-
         linechart();
-
         var bt = document.getElementById('switch');
         bt.addEventListener('click', function () {
             if (bt.value == 1) {
@@ -420,25 +372,15 @@
                 wordcloud();
             }
         });
-
     </script>
     <script>
         // First define your cloud data, using `text` and `size` properties:
-
         var widthcloud = 500;
         var heightcloud = 500;
         var fill = d3.scaleOrdinal(d3.schemeCategory20);
-
         function wordcloud() {
-
-
             var skillsToDraw = [{ "text": "Oklahoma", "size": 50 }, { "text": "Kansas", "size": 38 }, { "text": "Colorado", "size": 33 }, { "text": "Nebraska", "size": 33 }, { "text": "Arkansas", "size": 33 }, { "text": "Louisiana", "size": 33 }, { "text": "Texas", "size": 32 }, { "text": "Missouri", "size": 31 }, { "text": "Minnesota", "size": 31 }, { "text": "Rhode Island", "size": 30 }, { "text": "Mississippi", "size": 29 }, { "text": "Kentucky", "size": 29 }, { "text": "Connecticut", "size": 29 }, { "text": "South Dakota", "size": 28 }, { "text": "South Carolina", "size": 28 }, { "text": "Florida", "size": 27 }, { "text": "Alabama", "size": 27 }, { "text": "Wyoming", "size": 26 }, { "text": "North Dakota", "size": 26 }, { "text": "Georgia", "size": 25 }, { "text": "Tennessee", "size": 25 }, { "text": "North Carolina", "size": 24 }, { "text": "Montana", "size": 23 }, { "text": "New Jersey", "size": 22 }, { "text": "Massachusetts", "size": 21 }, { "text": "New York", "size": 21 }, { "text": "Indiana", "size": 20 }, { "text": "Illinois", "size": 20 }, { "text": "New Mexico", "size": 19 }, { "text": "Iowa", "size": 18 }, { "text": "Washington", "size": 18 }, { "text": "Maryland", "size": 59 }, { "text": "Ohio", "size": 16 }, { "text": "Idaho", "size": 16 }, { "text": "Virginia", "size": 15 }, { "text": "West Virginia", "size": 15 }, { "text": "Wisconsin", "size": 15 }, { "text": "Maine", "size": 14 }, { "text": "New Hampshire", "size": 14 }, { "text": "Pennsylvania", "size": 13 }, { "text": "Delaware", "size": 13 }, { "text": "Michigan", "size": 11 }, { "text": "Arizona", "size": 10 }, { "text": "Vermont", "size": 10 }, { "text": "Utah", "size": 10 }, { "text": "Hawaii", "size": 9 }, { "text": "Oregon", "size": 8 }, { "text": "Alaska", "size": 7 }, { "text": "Washington D.C.", "size": 6 }, { "text": "California", "size": 3 }, { "text": "Nevada", "size": 2 }];
-
             // Next you need to use the layout script to calculate the placement, rotation and size of each word:
-
-
-
-
             d3.layout.cloud()
                 .size([widthcloud, heightcloud])
                 .words(skillsToDraw)
@@ -453,7 +395,6 @@
                 .start();
         }
         // Finally implement `drawSkillCloud`, which performs the D3 drawing:
-
         // apply D3.js drawing API
         function drawSkillCloud(words) {
             d3.select("body").append("svg")
@@ -488,7 +429,6 @@
                     return d.text;
                 });
         }
-
     </script>
 </body>
 
