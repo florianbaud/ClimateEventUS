@@ -28,23 +28,29 @@
     body {
         background-color: #e9ebee;
     }
+
     #wordcloudsvg {
         position: absolute;
     }
+
     #button {
         text-align: center;
     }
+
     .province {
         fill: #000;
         stroke: #fff;
         stroke-width: 1px;
     }
+
     .province:hover {
         fill: #666;
     }
+
     .hidden {
         display: none;
     }
+
     div.tooltip {
         color: #222;
         background-color: #fff;
@@ -54,11 +60,13 @@
         opacity: 0.9;
         position: absolute;
     }
+
     .line {
         stroke: #ccc;
         stroke-width: 2;
         fill: none;
     }
+
     .axis path,
     .axis line {
         fill: none;
@@ -66,6 +74,7 @@
         stroke-width: 1;
         shape-rendering: crispEdges;
     }
+
     #legendContainer {
         position: absolute;
         top: 60px;
@@ -74,18 +83,22 @@
         height: 490px;
         width: 110px;
     }
+
     #legend {
         width: 90px;
         height: 200px;
     }
+
     .legend {
         font-size: 12px;
         font-weight: normal;
         text-anchor: left;
     }
+
     .legendcheckbox {
         cursor: pointer;
     }
+
     input {
         border-radius: 5px;
         padding: 5px 10px;
@@ -99,7 +112,7 @@
     <div class="container-fluid" id='main'>
         <div class="row">
             <div class="col-md-6">
-                <h1>Groupe 42</h1>
+                <h1>Impact des événements climatiques sur le prix des assurances</h1>
             </div>
             <div class="col-md-6">
                 <form class="form-inline">
@@ -108,7 +121,7 @@
                         <select class="form-control" id="events">
                         </select>
                     </div>
-                    <a href="#" class="btn btn-info mt-2 ml-sm-2" role="button" id="switch">Map Chart</a>
+                    <a href="#" class="btn btn-info mt-2 ml-sm-2" role="button" id="switch">Line Chart</a>
                 </form>
             </div>
         </div>
@@ -135,16 +148,22 @@
         function linechart() {
             // Set the dimensions of the canvas / graph
             // var margin = { top: 50, right: 20, bottom: 30, left: 160 }
-            var margin = { top: 50, right: 20, bottom: 30, left: 70 },
+            var margin = { top: 50, right: 40, bottom: 30, left: 80 },
                 width = 1000 - margin.left - margin.right,
                 height = 550 - margin.top - margin.bottom;
             // Parse the date / time
             // Set the ranges
             var x = d3v3.time.scale().range([0, width]);
             var y = d3v3.scale.linear().range([height, 0]);
+            var Month = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Decembre'];
+            var z = d3v3.scale.ordinal().domain(Month).rangePoints([0, width]);
             // Define the axes
-            var xAxis = d3v3.svg.axis().scale(x)
+            // var xAxis = d3v3.svg.axis().scale(x)
+            //     .orient("bottom").ticks(15)
+
+            var xAxis = d3v3.svg.axis().scale(z)
                 .orient("bottom").ticks(15)
+
             var yAxis = d3v3.svg.axis().scale(y)
                 .orient("left").ticks(5);
             // Define the line
@@ -266,6 +285,14 @@
                 svg.append("g")
                     .attr("class", "y axis")
                     .call(yAxis);
+
+                svg.append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 0 - 80)
+                    .attr("x", 0 - (height / 2))
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("Nombre d'événements");
             };
         }
     </script>
@@ -303,14 +330,14 @@
                         if (value) { return color(value); } else { return "#ccc"; }
                     })
                     .on("mousemove", function (d) {
-                        d3.select(this).style("stroke","#000000");
+                        d3.select(this).style("stroke", "#000000");
                         var mouse = d3.mouse(svg2.node()).map(function (d) { return parseInt(d); });
                         tooltip.classed("hidden", false)
                             .attr("style", "left:" + (mouse[0] + 15) + "px;top:" + (mouse[1] - 35) + "px")
-                            .html("<center><b>" + d.properties.name +"</b></br><i>" + d[test.value].nb_event + " events</i></br>Injuries : " + d[test.value].total_injuries + "</br>" +  "Deaths : "+ d[test.value].total_deaths + "</br>" + "Damage : " + d[test.value].total_damages + " $ </center>" );
+                            .html("<center><b>" + d.properties.name + "</b></br><i>" + d[test.value].nb_event + " events</i></br>Injuries : " + d[test.value].total_injuries + "</br>" + "Deaths : " + d[test.value].total_deaths + "</br>" + "Damages : " + d[test.value].DAMAGE_PROPERTY + " $ </center>");
                     })
                     .on("mouseout", function () {
-                        d3.select(this).style("stroke","");
+                        d3.select(this).style("stroke", "");
                         tooltip.classed("hidden", true);
                     }
                     );
@@ -325,7 +352,7 @@
                             .domain([d3.min(values), d3.max(values)]);
                         // svg
                         svg2.selectAll("path")
-                            .transition(duration=500)
+                            .transition(duration = 500)
                             .style("fill", function (d) {
                                 var value = d[test.value + "_scaled"].sum_scaled;
                                 if (value) { return color(value); } else { return "#ccc"; }
@@ -336,50 +363,12 @@
         }
     </script>
     <script>
-        var form = d3v3.select('#events');
-        d3v3.json('./events.json', function (err, data) {
-            form.selectAll('option')
-                .data(data)
-                .enter()
-                .append('option')
-                .attr('value', function (d) {
-                    return d.name;
-                })
-                .text(function (d) {
-                    return d.name;
-                });
-        });
-        var test = document.getElementById('events');
-        linechart();
-        var bt = document.getElementById('switch');
-        bt.addEventListener('click', function () {
-            if (bt.value == 1) {
-                bt.value = 2;
-                bt.text = 'Map Chart';
-                var map = document.getElementById('mapchart')
-                var tooltip = document.getElementById('tooltip')
-                var wordcloudel = document.getElementById('wordcloudsvg')
-                document.getElementById('body').removeChild(map)
-                document.getElementById('body').removeChild(tooltip)
-                document.getElementById('body').removeChild(wordcloudel)
-                linechart();
-            } else {
-                bt.value = 1;
-                bt.text = 'Line Chart';
-                var line = document.getElementById('line')
-                document.getElementById('linechart').removeChild(line);
-                mapchart();
-                wordcloud();
-            }
-        });
-    </script>
-    <script>
         // First define your cloud data, using `text` and `size` properties:
         var widthcloud = 500;
         var heightcloud = 500;
         var fill = d3.scaleOrdinal(d3.schemeCategory20);
         function wordcloud() {
-            var skillsToDraw = [{ "text": "Oklahoma", "size": 50 }, { "text": "Kansas", "size": 38 }, { "text": "Colorado", "size": 33 }, { "text": "Nebraska", "size": 33 }, { "text": "Arkansas", "size": 33 }, { "text": "Louisiana", "size": 33 }, { "text": "Texas", "size": 32 }, { "text": "Missouri", "size": 31 }, { "text": "Minnesota", "size": 31 }, { "text": "Rhode Island", "size": 30 }, { "text": "Mississippi", "size": 29 }, { "text": "Kentucky", "size": 29 }, { "text": "Connecticut", "size": 29 }, { "text": "South Dakota", "size": 28 }, { "text": "South Carolina", "size": 28 }, { "text": "Florida", "size": 27 }, { "text": "Alabama", "size": 27 }, { "text": "Wyoming", "size": 26 }, { "text": "North Dakota", "size": 26 }, { "text": "Georgia", "size": 25 }, { "text": "Tennessee", "size": 25 }, { "text": "North Carolina", "size": 24 }, { "text": "Montana", "size": 23 }, { "text": "New Jersey", "size": 22 }, { "text": "Massachusetts", "size": 21 }, { "text": "New York", "size": 21 }, { "text": "Indiana", "size": 20 }, { "text": "Illinois", "size": 20 }, { "text": "New Mexico", "size": 19 }, { "text": "Iowa", "size": 18 }, { "text": "Washington", "size": 18 }, { "text": "Maryland", "size": 59 }, { "text": "Ohio", "size": 16 }, { "text": "Idaho", "size": 16 }, { "text": "Virginia", "size": 15 }, { "text": "West Virginia", "size": 15 }, { "text": "Wisconsin", "size": 15 }, { "text": "Maine", "size": 14 }, { "text": "New Hampshire", "size": 14 }, { "text": "Pennsylvania", "size": 13 }, { "text": "Delaware", "size": 13 }, { "text": "Michigan", "size": 11 }, { "text": "Arizona", "size": 10 }, { "text": "Vermont", "size": 10 }, { "text": "Utah", "size": 10 }, { "text": "Hawaii", "size": 9 }, { "text": "Oregon", "size": 8 }, { "text": "Alaska", "size": 7 }, { "text": "Washington D.C.", "size": 6 }, { "text": "California", "size": 3 }, { "text": "Nevada", "size": 2 }];
+            var skillsToDraw = [{ "text": "Oklahoma", "size": 50 }, { "text": "Kansas", "size": 38 }, { "text": "Colorado", "size": 33 }, { "text": "Nebraska", "size": 33 }, { "text": "Arkansas", "size": 33 }, { "text": "Louisiana", "size": 33 }, { "text": "Texas", "size": 32 }, { "text": "Missouri", "size": 31 }, { "text": "Minnesota", "size": 31 }, { "text": "Rhode Island", "size": 30 }, { "text": "Mississippi", "size": 29 }, { "text": "Kentucky", "size": 29 }, { "text": "Connecticut", "size": 29 }, { "text": "South Dakota", "size": 28 }, { "text": "South Carolina", "size": 28 }, { "text": "Florida", "size": 27 }, { "text": "Alabama", "size": 27 }, { "text": "Wyoming", "size": 26 }, { "text": "North Dakota", "size": 26 }, { "text": "Georgia", "size": 25 }, { "text": "Tennessee", "size": 25 }, { "text": "North Carolina", "size": 24 }, { "text": "Montana", "size": 23 }, { "text": "New Jersey", "size": 22 }, { "text": "Massachusetts", "size": 21 }, { "text": "New York", "size": 21 }, { "text": "Indiana", "size": 20 }, { "text": "Illinois", "size": 20 }, { "text": "New Mexico", "size": 19 }, { "text": "Iowa", "size": 18 }, { "text": "Washington", "size": 18 }, { "text": "Maryland", "size": 17 }, { "text": "Ohio", "size": 16 }, { "text": "Idaho", "size": 16 }, { "text": "Virginia", "size": 15 }, { "text": "West Virginia", "size": 15 }, { "text": "Wisconsin", "size": 15 }, { "text": "Maine", "size": 14 }, { "text": "New Hampshire", "size": 14 }, { "text": "Pennsylvania", "size": 13 }, { "text": "Delaware", "size": 13 }, { "text": "Michigan", "size": 11 }, { "text": "Arizona", "size": 10 }, { "text": "Vermont", "size": 10 }, { "text": "Utah", "size": 10 }, { "text": "Hawaii", "size": 9 }, { "text": "Oregon", "size": 8 }, { "text": "Alaska", "size": 7 }, { "text": "Washington D.C.", "size": 6 }, { "text": "California", "size": 3 }, { "text": "Nevada", "size": 2 }];
             // Next you need to use the layout script to calculate the placement, rotation and size of each word:
             d3.layout.cloud()
                 .size([widthcloud, heightcloud])
@@ -429,6 +418,46 @@
                     return d.text;
                 });
         }
+    </script>
+    <script>
+        var form = d3v3.select('#events');
+        d3v3.json('./events.json', function (err, data) {
+            form.selectAll('option')
+                .data(data)
+                .enter()
+                .append('option')
+                .attr('value', function (d) {
+                    return d.name;
+                })
+                .text(function (d) {
+                    return d.name;
+                });
+        });
+        var test = document.getElementById('events');
+        // linechart();
+        mapchart();
+        wordcloud();
+        var bt = document.getElementById('switch');
+        bt.addEventListener('click', function () {
+            if (bt.value == 1) {
+                bt.value = 2;
+                bt.text = 'Line Chart';
+                var line = document.getElementById('line')
+                document.getElementById('linechart').removeChild(line);
+                mapchart();
+                wordcloud();
+            } else {
+                bt.value = 1;
+                bt.text = 'Map';
+                var map = document.getElementById('mapchart')
+                var tooltip = document.getElementById('tooltip')
+                var wordcloudel = document.getElementById('wordcloudsvg')
+                document.getElementById('body').removeChild(map)
+                document.getElementById('body').removeChild(tooltip)
+                document.getElementById('body').removeChild(wordcloudel)
+                linechart();
+            }
+        });
     </script>
 </body>
 
