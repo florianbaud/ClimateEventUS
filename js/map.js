@@ -14,10 +14,10 @@ function mapchart() {
         .attr("id", 'tooltip');
     // map
     d3.json("./data/us_states.json", function (json) {
-        // on récupère les valeurs de total_damages
+        // on récupère les valeurs de total_damages_scaled
         var values = [];
         for (var i = 0; i < json.features.length; i++) {
-            values.push(json.features[i][test.value].total_damages);
+            values.push(json.features[i][test.value].total_damages_scaled);
         }
         var color = d3.scaleSequential(d3.interpolateYlOrRd)
             .domain([d3.min(values), d3.max(values)]);
@@ -27,7 +27,7 @@ function mapchart() {
             .append("path")
             .attr("d", path)
             .style("fill", function (d) {
-                var value = d[test.value].total_damages;
+                var value = d[test.value].total_damages_scaled;
                 if (value) { return color(value); } else { return "#ccc"; }
             })
             .on("mousemove", function (d) {
@@ -35,7 +35,7 @@ function mapchart() {
                 var mouse = d3.mouse(svg2.node()).map(function (d) { return parseInt(d); });
                 tooltip.classed("hidden", false)
                     .attr("style", "left:" + (mouse[0] + 15) + "px;top:" + (mouse[1] - 35) + "px")
-                    .html("<center><b>" + d.properties.name + "</b></br><i>" + d[test.value].nb_event + " events</i></br>Injuries : " + d[test.value].total_injuries + "</br>" + "Deaths : " + d[test.value].total_deaths + "</br>" + "Damages : " + d[test.value].total_damages + " $ </center>");
+                    .html("<center><b>" + d.properties.name + "</b></br><i>" + d[test.value].nb_event + " events</i></br>Injuries : " + d[test.value].total_injuries + "</br>" + "Deaths : " + d[test.value].total_deaths + "</br>" + "Damages : " + d[test.value].total_damages_scaled + " $ </center>");
             })
             .on("mouseout", function () {
                 d3.select(this).style("stroke", "");
@@ -44,10 +44,10 @@ function mapchart() {
             );
         d3.select('#events')
             .on("change", function () {
-                // on recupere les valeurs de total_damages
+                // on recupere les valeurs de total_damages_scaled
                 var values = [];
                 for (var i = 0; i < json.features.length; i++) {
-                    values.push(json.features[i][test.value].total_damages);
+                    values.push(json.features[i][test.value].total_damages_scaled);
                 }
                 var color = d3.scaleSequential(d3.interpolateYlOrRd)
                     .domain([d3.min(values), d3.max(values)]);
@@ -55,7 +55,7 @@ function mapchart() {
                 svg2.selectAll("path")
                     .transition(duration = 500)
                     .style("fill", function (d) {
-                        var value = d[test.value].total_damages;
+                        var value = d[test.value].total_damages_scaled;
                         if (value) { return color(value); } else { return "#ccc"; }
                     })
             });
