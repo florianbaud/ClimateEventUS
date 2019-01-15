@@ -35,7 +35,7 @@ function mapchart() {
                 var mouse = d3.mouse(svg2.node()).map(function (d) { return parseInt(d); });
                 tooltip.classed("hidden", false)
                     .attr("style", "left:" + (mouse[0] + 15) + "px;top:" + (mouse[1] - 35) + "px")
-                    .html("<center><b>" + d.properties.name + "</b></br><i>" + d[test.value].nb_event + " events</i></br>Injuries : " + d[test.value].total_injuries + "</br>" + "Deaths : " + d[test.value].total_deaths + "</br>" + "Damages : " + d[test.value].total_damages_scaled + " $ </center>");
+                    .html("<center><b>" + d.properties.name + "</b></br><i>" + d[test.value].nb_event + " events</i></br>Injuries : " + d[test.value].total_injuries + "</br>" + "Deaths : " + d[test.value].total_deaths + "</br>" + "Damages : " + d[test.value].total_damages + " $ </center>");
             })
             .on("mouseout", function () {
                 d3.select(this).style("stroke", "");
