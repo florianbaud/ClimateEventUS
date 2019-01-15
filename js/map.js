@@ -14,10 +14,10 @@ function mapchart() {
         .attr("id", 'tooltip');
     // map
     d3.json("./data/us_states.json", function (json) {
-        // on r�cup�re les valeurs de sum_scaled
+        // on récupère les valeurs de total_damages
         var values = [];
         for (var i = 0; i < json.features.length; i++) {
-            values.push(json.features[i][test.value + "_scaled"].sum_scaled);
+            values.push(json.features[i][test.value].total_damages);
         }
         var color = d3.scaleSequential(d3.interpolateYlOrRd)
             .domain([d3.min(values), d3.max(values)]);
@@ -27,7 +27,7 @@ function mapchart() {
             .append("path")
             .attr("d", path)
             .style("fill", function (d) {
-                var value = d[test.value + "_scaled"].sum_scaled;
+                var value = d[test.value].total_damages;
                 if (value) { return color(value); } else { return "#ccc"; }
             })
             .on("mousemove", function (d) {
@@ -44,10 +44,10 @@ function mapchart() {
             );
         d3.select('#events')
             .on("change", function () {
-                // on r�cup�re les valeurs de sum_scaled
+                // on recupere les valeurs de total_damages
                 var values = [];
                 for (var i = 0; i < json.features.length; i++) {
-                    values.push(json.features[i][test.value + "_scaled"].sum_scaled);
+                    values.push(json.features[i][test.value].total_damages);
                 }
                 var color = d3.scaleSequential(d3.interpolateYlOrRd)
                     .domain([d3.min(values), d3.max(values)]);
@@ -55,7 +55,7 @@ function mapchart() {
                 svg2.selectAll("path")
                     .transition(duration = 500)
                     .style("fill", function (d) {
-                        var value = d[test.value + "_scaled"].sum_scaled;
+                        var value = d[test.value].total_damages;
                         if (value) { return color(value); } else { return "#ccc"; }
                     })
             });
