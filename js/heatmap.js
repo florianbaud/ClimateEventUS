@@ -1,5 +1,7 @@
 function heatmap() {
     d3.json("./data/heat.json", (data) => {
+        
+        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
         var colors = d3.scaleSequential(d3.interpolateYlOrRd)
             .domain([0, 500]);
@@ -145,7 +147,7 @@ function heatmap() {
                     .style("top", (d3.event.pageY - 100) + "px")
                     .html(`
                             <b>${d.event}</b><br />
-                            ${d.date}: ${d.count} events
+                            ${months[parseInt(${d.date})]}: ${d.count} events
                         `)
             })
             .on("mouseout", function (d) {
