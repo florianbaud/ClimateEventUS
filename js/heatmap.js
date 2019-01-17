@@ -144,9 +144,9 @@ function heatmap() {
                     .style("left", (d3.event.pageX + 10) + "px")
                     .style("top", (d3.event.pageY - 100) + "px")
                     .html(`
-                            Mois: ${d.date} <br />
-                            Type: ${d.event}<br />
-                            Nombre: ${d.count}
+                            Month: ${d.date} <br />
+                            Type of event: ${d.event}<br />
+                            Number of occurrences: ${d.count}
                         `)
             })
             .on("mouseout", function (d) {
