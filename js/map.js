@@ -2,10 +2,14 @@ function mapchart() {
     var test = document.getElementById('events');
     var width = 875,
         height = 501;
-    var svg2 = d3.select("body")
+    var svg2 = d3.select("#map")
         .append("svg")
-        .attr("width", width)
-        .attr("height", height)
+        // .attr("width", width)
+        // .attr("height", height)
+        .attr("width", '100%')
+        .attr("height", '100%')
+        .attr('preserveAspectRatio', "none")
+        .attr('viewBox', "-50 0 "+ (width + 120) + " " + (height + 200) )
         // .attr('transform','translate(-75,0)')
         .attr("id", "mapchart");
     var projection = d3.geoAlbersUsa().translate([width / 2, height / 2])
@@ -33,9 +37,10 @@ function mapchart() {
             })
             .on("mousemove", function (d) {
                 d3.select(this).style("stroke", "#000000");
-                var mouse = d3.mouse(svg2.node()).map(function (d) { return parseInt(d); });
+                // var mouse = d3.mouse(svg2.node()).map(function (d) { return parseInt(d); });
                 tooltip.classed("hidden", false)
-                    .attr("style", "left:" + (mouse[0] + 15) + "px;top:" + (mouse[1] - 35) + "px")
+                    // .attr("style", "left:" + (mouse[0] + 15) + "px;top:" + (mouse[1] - 35) + "px")
+                    .attr("style", "left:" + (d3.event.pageX + 10) + "px;top:" + (d3.event.pageY - 150) + "px")
                     .html("<center><b>" + d.properties.name + "</b></br><i>" + d[test.value].nb_event + " events</i></br>Injuries : " + d[test.value].total_injuries + "</br>" + "Deaths : " + d[test.value].total_deaths + "</br>" + "Damages : " + d[test.value].total_damages + " $ </center>");
             })
             .on("mouseout", function () {

@@ -63,10 +63,14 @@ function heatmap() {
         var xAxis = d3.axisBottom(x);
         var yAxis = d3.axisLeft(y);
 
-        var svg = d3.select("body")
+        var svg = d3.select("#heatmap")
             .append("svg")
-            .attr("width", width + 120)
-            .attr("height", height + 200)
+            // .attr("width", width + 120)
+            // .attr("height", height + 200)
+            .attr("width", '100%')
+            .attr("height", '100%')
+            .attr('preserveAspectRatio', "none")
+            .attr('viewBox', "-50 0 "+ (width + 120) + " " + (height + 200) )
             .append("g")
             .attr("transform", "translate(" + 60 + "," + 50 + ")")
 

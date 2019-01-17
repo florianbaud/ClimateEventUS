@@ -21,10 +21,14 @@ function wordcloud() {
 // Finally implement `drawSkillCloud`, which performs the D3 drawing:
 // apply D3.js drawing API
 function drawSkillCloud(words) {
-    d3.select("body").append("svg")
-        .attr("width", widthcloud)
-        .attr("height", heightcloud)
-        .attr('transform', 'translate(-75,0)')
+    d3.select("#wordcloud").append("svg")
+        // .attr("width", widthcloud)
+        // .attr("height", heightcloud)
+        .attr("width", '100%')
+        .attr("height", '100%')
+        .attr('preserveAspectRatio', "none")
+        .attr('viewBox', "-50 0 "+ (widthcloud + 120) + " " + (heightcloud + 200) )
+        // .attr('transform', 'translate(-75,0)')
         .attr('id', 'wordcloudsvg')
         .append("g")
         .attr("transform", "translate(" + ~~(widthcloud / 2) + "," + ~~(heightcloud / 2) + ")")
