@@ -115,7 +115,7 @@ function heatmap() {
 
         var rectangleWidth = width / 12;
         var rectangleHeight = height / 49;
-        var tooltip = d3.select("body").append("div").attr("id", "tooltip").attr("class","hidden");
+        var tooltip = d3.select("body").append("div").attr("id", "tooltip2").attr("class","hidden tooltip");
         // var tooltip = d3.select("body").append("div")
         //     .attr("class", "hidden tooltip")
         //     .attr("id", 'tooltip2');
@@ -139,8 +139,8 @@ function heatmap() {
                 d3.select(this).style("stroke", "#000000");
                 tooltip//.style('opacity', 1)
                     .classed("hidden", false)
-                    .attr('data-year', d.event)
-                    .style("display", "inline-block")
+                    // .attr('data-year', d.event)
+                    // .style("display", "inline-block")
                     .style("left", (d3.event.pageX + 10) + "px")
                     .style("top", (d3.event.pageY - 100) + "px")
                     .html(`
@@ -151,7 +151,7 @@ function heatmap() {
             })
             .on("mouseout", function (d) {
                 d3.select(this).style("stroke", "");
-                tooltip.classed("hidden", false)//.style("opacity", 0);
+                tooltip.classed("hidden", true)//.style("opacity", 0);
             });
 
     });
