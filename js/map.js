@@ -10,8 +10,8 @@ function mapchart() {
     var projection = d3.geoAlbersUsa().translate([width / 2, height / 2])
     var path = d3.geoPath().projection(projection);
     var tooltip = d3.select("body").append("div")
-        .attr("class", "hidden tooltip")
-        .attr("id", 'tooltip');
+        .attr("class", "hidden tooltip");
+        // .attr("id", 'tooltip');
     // map
     d3.json("./data/us_states.json", function (json) {
         // on récupère les valeurs de total_damages_scaled

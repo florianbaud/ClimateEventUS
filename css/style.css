@@ -34,7 +34,7 @@ div.tooltip {
     position: absolute;
 }
 
-/* #tooltip {
+#tooltip {
     color: #222;
     background-color: #fff;
     padding: .5em;
@@ -42,7 +42,7 @@ div.tooltip {
     border-radius: 2px;
     opacity: 0.9;
     position: absolute; 
-} */
+}
 
 .line {
     stroke: #ccc;
