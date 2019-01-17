@@ -1,4 +1,5 @@
 function mapchart() {
+    var test = document.getElementById('events');
     var width = 875,
         height = 501;
     var svg2 = d3.select("body")
