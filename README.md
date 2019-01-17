@@ -1,4 +1,4 @@
-Influence des événements climatiques aux Etats-Unis sur le prix des assurances.
+<b>Influence des événements climatiques aux Etats-Unis sur le prix des assurances.
 Projet réalisé par Cheikh Toure, Rhizlaine Degni, Floriand Baud et Antoine Vendeville.
 
 Ce projet a pour but de mettre en évidence le lien entre les dégâts causés par les événements climatiques aux US et le prix des assurances habitation.
