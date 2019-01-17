@@ -47,7 +47,7 @@ function mapchart() {
                 // on recupere les valeurs de total_damages_scaled
                 var values = [];
                 for (var i = 0; i < json.features.length; i++) {
-                    values.push(Math.sqrt(json.features[i][test.value].total_damages_scaled);
+                    values.push(Math.sqrt(json.features[i][test.value].total_damages_scaled));
                 }
                 var color = d3.scaleSequential(d3.interpolateYlOrRd)
                     .domain([d3.min(values), d3.max(values)]);
