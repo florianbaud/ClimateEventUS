@@ -138,6 +138,7 @@ function heatmap() {
                 return colors(d.count);
             })
             .on("mousemove", function (d, i) {
+                current_month = months[parseInt(d.date)-1]
                 d3.select(this).style("stroke", "#000000");
                 tooltip//.style('opacity', 1)
                     .classed("hidden", false)
@@ -147,7 +148,7 @@ function heatmap() {
                     .style("top", (d3.event.pageY - 100) + "px")
                     .html(`
                             <b>${d.event}</b><br />
-                            ${months[parseInt(${d.date})]}: ${d.count} events
+                            ${current_month}: ${d.count} events
                         `)
             })
             .on("mouseout", function (d) {
