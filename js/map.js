@@ -19,6 +19,7 @@ function mapchart() {
         for (var i = 0; i < json.features.length; i++) {
             values.push(Math.log(json.features[i][test.value].total_damages_scaled));
         }
+        console.log(Math.log(3))
         var color = d3.scaleSequential(d3.interpolateYlOrRd)
             .domain([d3.min(values), d3.max(values)]);
         svg2.selectAll("path")
