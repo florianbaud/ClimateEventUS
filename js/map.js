@@ -65,5 +65,5 @@ function mapchart() {
                         if (value) { return color(value); } else { return "#ccc"; }
                     })
             });
-    })
+    });
 }

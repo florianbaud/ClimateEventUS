@@ -1,5 +1,7 @@
 function heatmap() {
     d3.json("./data/heat.json", (data) => {
+        
+        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
         var colors = d3.scaleSequential(d3.interpolateYlOrRd)
             .domain([0, 500]);
@@ -140,6 +142,7 @@ function heatmap() {
                 return colors(d.count);
             })
             .on("mousemove", function (d, i) {
+                current_month = months[parseInt(d.date)-1]
                 d3.select(this).style("stroke", "#000000");
                 tooltip//.style('opacity', 1)
                     .classed("hidden", false)
@@ -148,9 +151,8 @@ function heatmap() {
                     .style("left", (d3.event.pageX + 10) + "px")
                     .style("top", (d3.event.pageY - 100) + "px")
                     .html(`
-                            Mois: ${d.date} <br />
-                            Type: ${d.event}<br />
-                            Nombre: ${d.count}
+                            <b>${d.event}</b><br />
+                            <i>${current_month}</i> - ${d.count} events
                         `)
             })
             .on("mouseout", function (d) {
