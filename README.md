@@ -10,7 +10,7 @@ observer la correspondance entre les dégâts causés par les événements clima
 Par ailleurs, on a également, fait une HeatMap qui représente la fréquence des différents événements climatiques au fil de l'année. On observe ainsi l'impact
 des saisons sur les type d'événements rencontrés.
 
-<br><br></br></br>
+<br></br>
 
 ## Influence of weather events in the United States on the price of insurance. 
 #### Project directed by Cheikh Toure, Rhizlaine Degni, Floriand Baud and Antoine Vendeville.
