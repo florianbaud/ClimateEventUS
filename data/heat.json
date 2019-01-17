@@ -1,0 +1,2944 @@
+{
+    "donnee": [
+        {
+            "date": 1,
+            "event": "Astronomical Low Tide",
+            "count": 10
+        },
+        {
+            "date": 1,
+            "event": "Avalanche",
+            "count": 10
+        },
+        {
+            "date": 1,
+            "event": "Blizzard",
+            "count": 50
+        },
+        {
+            "date": 1,
+            "event": "Coastal Flood",
+            "count": 27
+        },
+        {
+            "date": 1,
+            "event": "Cold/Wind Chill",
+            "count": 42
+        },
+        {
+            "date": 1,
+            "event": "Debris Flow",
+            "count": 48
+        },
+        {
+            "date": 1,
+            "event": "Dense Fog",
+            "count": 157
+        },
+        {
+            "date": 1,
+            "event": "Drought",
+            "count": 226
+        },
+        {
+            "date": 1,
+            "event": "Extreme Cold/Wind Chill",
+            "count": 88
+        },
+        {
+            "date": 1,
+            "event": "Flash Flood",
+            "count": 113
+        },
+        {
+            "date": 1,
+            "event": "Flood",
+            "count": 255
+        },
+        {
+            "date": 1,
+            "event": "Freezing Fog",
+            "count": 3
+        },
+        {
+            "date": 1,
+            "event": "Frost/Freeze",
+            "count": 22
+        },
+        {
+            "date": 1,
+            "event": "Funnel Cloud",
+            "count": 11
+        },
+        {
+            "date": 1,
+            "event": "Hail",
+            "count": 174
+        },
+        {
+            "date": 1,
+            "event": "Heavy Rain",
+            "count": 80
+        },
+        {
+            "date": 1,
+            "event": "Heavy Snow",
+            "count": 574
+        },
+        {
+            "date": 1,
+            "event": "High Surf",
+            "count": 67
+        },
+        {
+            "date": 1,
+            "event": "High Wind",
+            "count": 435
+        },
+        {
+            "date": 1,
+            "event": "Ice Storm",
+            "count": 301
+        },
+        {
+            "date": 1,
+            "event": "Lake-Effect Snow",
+            "count": 37
+        },
+        {
+            "date": 1,
+            "event": "Lightning",
+            "count": 18
+        },
+        {
+            "date": 1,
+            "event": "Marine Hail",
+            "count": 1
+        },
+        {
+            "date": 1,
+            "event": "Marine High Wind",
+            "count": 11
+        },
+        {
+            "date": 1,
+            "event": "Marine Strong Wind",
+            "count": 1
+        },
+        {
+            "date": 1,
+            "event": "Marine Thunderstorm Wind",
+            "count": 81
+        },
+        {
+            "date": 1,
+            "event": "Rip Current",
+            "count": 3
+        },
+        {
+            "date": 1,
+            "event": "Sleet",
+            "count": 39
+        },
+        {
+            "date": 1,
+            "event": "Sneakerwave",
+            "count": 1
+        },
+        {
+            "date": 1,
+            "event": "Strong Wind",
+            "count": 161
+        },
+        {
+            "date": 1,
+            "event": "Thunderstorm Wind",
+            "count": 541
+        },
+        {
+            "date": 1,
+            "event": "Tornado",
+            "count": 170
+        },
+        {
+            "date": 1,
+            "event": "Waterspout",
+            "count": 2
+        },
+        {
+            "date": 1,
+            "event": "Wildfire",
+            "count": 16
+        },
+        {
+            "date": 1,
+            "event": "Winter Storm",
+            "count": 715
+        },
+        {
+            "date": 1,
+            "event": "Winter Weather",
+            "count": 1022
+        },
+        {
+            "date": 2,
+            "event": "Avalanche",
+            "count": 8
+        },
+        {
+            "date": 2,
+            "event": "Blizzard",
+            "count": 93
+        },
+        {
+            "date": 2,
+            "event": "Coastal Flood",
+            "count": 1
+        },
+        {
+            "date": 2,
+            "event": "Cold/Wind Chill",
+            "count": 5
+        },
+        {
+            "date": 2,
+            "event": "Debris Flow",
+            "count": 85
+        },
+        {
+            "date": 2,
+            "event": "Dense Fog",
+            "count": 75
+        },
+        {
+            "date": 2,
+            "event": "Drought",
+            "count": 139
+        },
+        {
+            "date": 2,
+            "event": "Dust Storm",
+            "count": 3
+        },
+        {
+            "date": 2,
+            "event": "Flash Flood",
+            "count": 65
+        },
+        {
+            "date": 2,
+            "event": "Flood",
+            "count": 282
+        },
+        {
+            "date": 2,
+            "event": "Frost/Freeze",
+            "count": 2
+        },
+        {
+            "date": 2,
+            "event": "Funnel Cloud",
+            "count": 12
+        },
+        {
+            "date": 2,
+            "event": "Hail",
+            "count": 500
+        },
+        {
+            "date": 2,
+            "event": "Heavy Rain",
+            "count": 76
+        },
+        {
+            "date": 2,
+            "event": "Heavy Snow",
+            "count": 336
+        },
+        {
+            "date": 2,
+            "event": "High Surf",
+            "count": 50
+        },
+        {
+            "date": 2,
+            "event": "High Wind",
+            "count": 572
+        },
+        {
+            "date": 2,
+            "event": "Ice Storm",
+            "count": 26
+        },
+        {
+            "date": 2,
+            "event": "Lake-Effect Snow",
+            "count": 20
+        },
+        {
+            "date": 2,
+            "event": "Lightning",
+            "count": 5
+        },
+        {
+            "date": 2,
+            "event": "Marine Hail",
+            "count": 8
+        },
+        {
+            "date": 2,
+            "event": "Marine High Wind",
+            "count": 4
+        },
+        {
+            "date": 2,
+            "event": "Marine Strong Wind",
+            "count": 1
+        },
+        {
+            "date": 2,
+            "event": "Marine Thunderstorm Wind",
+            "count": 116
+        },
+        {
+            "date": 2,
+            "event": "Strong Wind",
+            "count": 61
+        },
+        {
+            "date": 2,
+            "event": "Thunderstorm Wind",
+            "count": 460
+        },
+        {
+            "date": 2,
+            "event": "Tornado",
+            "count": 83
+        },
+        {
+            "date": 2,
+            "event": "Waterspout",
+            "count": 7
+        },
+        {
+            "date": 2,
+            "event": "Wildfire",
+            "count": 37
+        },
+        {
+            "date": 2,
+            "event": "Winter Storm",
+            "count": 460
+        },
+        {
+            "date": 2,
+            "event": "Winter Weather",
+            "count": 263
+        },
+        {
+            "date": 3,
+            "event": "Avalanche",
+            "count": 1
+        },
+        {
+            "date": 3,
+            "event": "Blizzard",
+            "count": 98
+        },
+        {
+            "date": 3,
+            "event": "Coastal Flood",
+            "count": 15
+        },
+        {
+            "date": 3,
+            "event": "Cold/Wind Chill",
+            "count": 53
+        },
+        {
+            "date": 3,
+            "event": "Debris Flow",
+            "count": 9
+        },
+        {
+            "date": 3,
+            "event": "Dense Fog",
+            "count": 66
+        },
+        {
+            "date": 3,
+            "event": "Drought",
+            "count": 140
+        },
+        {
+            "date": 3,
+            "event": "Dust Storm",
+            "count": 7
+        },
+        {
+            "date": 3,
+            "event": "Flash Flood",
+            "count": 78
+        },
+        {
+            "date": 3,
+            "event": "Flood",
+            "count": 194
+        },
+        {
+            "date": 3,
+            "event": "Freezing Fog",
+            "count": 1
+        },
+        {
+            "date": 3,
+            "event": "Frost/Freeze",
+            "count": 95
+        },
+        {
+            "date": 3,
+            "event": "Funnel Cloud",
+            "count": 15
+        },
+        {
+            "date": 3,
+            "event": "Hail",
+            "count": 1483
+        },
+        {
+            "date": 3,
+            "event": "Heavy Rain",
+            "count": 37
+        },
+        {
+            "date": 3,
+            "event": "Heavy Snow",
+            "count": 228
+        },
+        {
+            "date": 3,
+            "event": "High Surf",
+            "count": 64
+        },
+        {
+            "date": 3,
+            "event": "High Wind",
+            "count": 804
+        },
+        {
+            "date": 3,
+            "event": "Ice Storm",
+            "count": 1
+        },
+        {
+            "date": 3,
+            "event": "Lake-Effect Snow",
+            "count": 15
+        },
+        {
+            "date": 3,
+            "event": "Lightning",
+            "count": 14
+        },
+        {
+            "date": 3,
+            "event": "Marine Hail",
+            "count": 2
+        },
+        {
+            "date": 3,
+            "event": "Marine High Wind",
+            "count": 15
+        },
+        {
+            "date": 3,
+            "event": "Marine Strong Wind",
+            "count": 5
+        },
+        {
+            "date": 3,
+            "event": "Marine Thunderstorm Wind",
+            "count": 122
+        },
+        {
+            "date": 3,
+            "event": "Rip Current",
+            "count": 3
+        },
+        {
+            "date": 3,
+            "event": "Sneakerwave",
+            "count": 2
+        },
+        {
+            "date": 3,
+            "event": "Strong Wind",
+            "count": 154
+        },
+        {
+            "date": 3,
+            "event": "Thunderstorm Wind",
+            "count": 2091
+        },
+        {
+            "date": 3,
+            "event": "Tornado",
+            "count": 220
+        },
+        {
+            "date": 3,
+            "event": "Waterspout",
+            "count": 14
+        },
+        {
+            "date": 3,
+            "event": "Wildfire",
+            "count": 69
+        },
+        {
+            "date": 3,
+            "event": "Winter Storm",
+            "count": 291
+        },
+        {
+            "date": 3,
+            "event": "Winter Weather",
+            "count": 381
+        },
+        {
+            "date": 4,
+            "event": "Avalanche",
+            "count": 1
+        },
+        {
+            "date": 4,
+            "event": "Blizzard",
+            "count": 37
+        },
+        {
+            "date": 4,
+            "event": "Coastal Flood",
+            "count": 6
+        },
+        {
+            "date": 4,
+            "event": "Debris Flow",
+            "count": 11
+        },
+        {
+            "date": 4,
+            "event": "Dense Fog",
+            "count": 28
+        },
+        {
+            "date": 4,
+            "event": "Drought",
+            "count": 110
+        },
+        {
+            "date": 4,
+            "event": "Dust Devil",
+            "count": 1
+        },
+        {
+            "date": 4,
+            "event": "Dust Storm",
+            "count": 3
+        },
+        {
+            "date": 4,
+            "event": "Excessive Heat",
+            "count": 1
+        },
+        {
+            "date": 4,
+            "event": "Extreme Cold/Wind Chill",
+            "count": 1
+        },
+        {
+            "date": 4,
+            "event": "Flash Flood",
+            "count": 536
+        },
+        {
+            "date": 4,
+            "event": "Flood",
+            "count": 362
+        },
+        {
+            "date": 4,
+            "event": "Frost/Freeze",
+            "count": 12
+        },
+        {
+            "date": 4,
+            "event": "Funnel Cloud",
+            "count": 17
+        },
+        {
+            "date": 4,
+            "event": "Hail",
+            "count": 1723
+        },
+        {
+            "date": 4,
+            "event": "Heavy Rain",
+            "count": 134
+        },
+        {
+            "date": 4,
+            "event": "Heavy Snow",
+            "count": 55
+        },
+        {
+            "date": 4,
+            "event": "High Surf",
+            "count": 34
+        },
+        {
+            "date": 4,
+            "event": "High Wind",
+            "count": 222
+        },
+        {
+            "date": 4,
+            "event": "Ice Storm",
+            "count": 5
+        },
+        {
+            "date": 4,
+            "event": "Lakeshore Flood",
+            "count": 1
+        },
+        {
+            "date": 4,
+            "event": "Lightning",
+            "count": 33
+        },
+        {
+            "date": 4,
+            "event": "Marine Hail",
+            "count": 9
+        },
+        {
+            "date": 4,
+            "event": "Marine High Wind",
+            "count": 1
+        },
+        {
+            "date": 4,
+            "event": "Marine Strong Wind",
+            "count": 1
+        },
+        {
+            "date": 4,
+            "event": "Marine Thunderstorm Wind",
+            "count": 217
+        },
+        {
+            "date": 4,
+            "event": "Rip Current",
+            "count": 11
+        },
+        {
+            "date": 4,
+            "event": "Strong Wind",
+            "count": 122
+        },
+        {
+            "date": 4,
+            "event": "Thunderstorm Wind",
+            "count": 1520
+        },
+        {
+            "date": 4,
+            "event": "Tornado",
+            "count": 266
+        },
+        {
+            "date": 4,
+            "event": "Waterspout",
+            "count": 8
+        },
+        {
+            "date": 4,
+            "event": "Wildfire",
+            "count": 15
+        },
+        {
+            "date": 4,
+            "event": "Winter Storm",
+            "count": 146
+        },
+        {
+            "date": 4,
+            "event": "Winter Weather",
+            "count": 106
+        },
+        {
+            "date": 5,
+            "event": "Avalanche",
+            "count": 2
+        },
+        {
+            "date": 5,
+            "event": "Coastal Flood",
+            "count": 21
+        },
+        {
+            "date": 5,
+            "event": "Debris Flow",
+            "count": 5
+        },
+        {
+            "date": 5,
+            "event": "Dense Fog",
+            "count": 16
+        },
+        {
+            "date": 5,
+            "event": "Drought",
+            "count": 23
+        },
+        {
+            "date": 5,
+            "event": "Dust Devil",
+            "count": 2
+        },
+        {
+            "date": 5,
+            "event": "Flash Flood",
+            "count": 339
+        },
+        {
+            "date": 5,
+            "event": "Flood",
+            "count": 326
+        },
+        {
+            "date": 5,
+            "event": "Frost/Freeze",
+            "count": 42
+        },
+        {
+            "date": 5,
+            "event": "Funnel Cloud",
+            "count": 48
+        },
+        {
+            "date": 5,
+            "event": "Hail",
+            "count": 2323
+        },
+        {
+            "date": 5,
+            "event": "Heat",
+            "count": 4
+        },
+        {
+            "date": 5,
+            "event": "Heavy Rain",
+            "count": 96
+        },
+        {
+            "date": 5,
+            "event": "Heavy Snow",
+            "count": 19
+        },
+        {
+            "date": 5,
+            "event": "High Surf",
+            "count": 22
+        },
+        {
+            "date": 5,
+            "event": "High Wind",
+            "count": 89
+        },
+        {
+            "date": 5,
+            "event": "Lightning",
+            "count": 49
+        },
+        {
+            "date": 5,
+            "event": "Marine Hail",
+            "count": 9
+        },
+        {
+            "date": 5,
+            "event": "Marine Thunderstorm Wind",
+            "count": 435
+        },
+        {
+            "date": 5,
+            "event": "Rip Current",
+            "count": 5
+        },
+        {
+            "date": 5,
+            "event": "Strong Wind",
+            "count": 164
+        },
+        {
+            "date": 5,
+            "event": "Thunderstorm Wind",
+            "count": 2996
+        },
+        {
+            "date": 5,
+            "event": "Tornado",
+            "count": 326
+        },
+        {
+            "date": 5,
+            "event": "Waterspout",
+            "count": 15
+        },
+        {
+            "date": 5,
+            "event": "Wildfire",
+            "count": 15
+        },
+        {
+            "date": 5,
+            "event": "Winter Storm",
+            "count": 72
+        },
+        {
+            "date": 5,
+            "event": "Winter Weather",
+            "count": 11
+        },
+        {
+            "date": 6,
+            "event": "Coastal Flood",
+            "count": 8
+        },
+        {
+            "date": 6,
+            "event": "Debris Flow",
+            "count": 3
+        },
+        {
+            "date": 6,
+            "event": "Dense Fog",
+            "count": 1
+        },
+        {
+            "date": 6,
+            "event": "Drought",
+            "count": 38
+        },
+        {
+            "date": 6,
+            "event": "Excessive Heat",
+            "count": 45
+        },
+        {
+            "date": 6,
+            "event": "Flash Flood",
+            "count": 479
+        },
+        {
+            "date": 6,
+            "event": "Flood",
+            "count": 235
+        },
+        {
+            "date": 6,
+            "event": "Frost/Freeze",
+            "count": 12
+        },
+        {
+            "date": 6,
+            "event": "Funnel Cloud",
+            "count": 46
+        },
+        {
+            "date": 6,
+            "event": "Hail",
+            "count": 1818
+        },
+        {
+            "date": 6,
+            "event": "Heat",
+            "count": 37
+        },
+        {
+            "date": 6,
+            "event": "Heavy Rain",
+            "count": 101
+        },
+        {
+            "date": 6,
+            "event": "High Surf",
+            "count": 17
+        },
+        {
+            "date": 6,
+            "event": "High Wind",
+            "count": 55
+        },
+        {
+            "date": 6,
+            "event": "Lightning",
+            "count": 50
+        },
+        {
+            "date": 6,
+            "event": "Marine Hail",
+            "count": 3
+        },
+        {
+            "date": 6,
+            "event": "Marine High Wind",
+            "count": 1
+        },
+        {
+            "date": 6,
+            "event": "Marine Thunderstorm Wind",
+            "count": 299
+        },
+        {
+            "date": 6,
+            "event": "Marine Tropical Storm",
+            "count": 14
+        },
+        {
+            "date": 6,
+            "event": "Rip Current",
+            "count": 14
+        },
+        {
+            "date": 6,
+            "event": "Storm Surge/Tide",
+            "count": 23
+        },
+        {
+            "date": 6,
+            "event": "Strong Wind",
+            "count": 23
+        },
+        {
+            "date": 6,
+            "event": "Thunderstorm Wind",
+            "count": 3081
+        },
+        {
+            "date": 6,
+            "event": "Tornado",
+            "count": 160
+        },
+        {
+            "date": 6,
+            "event": "Tropical Storm",
+            "count": 23
+        },
+        {
+            "date": 6,
+            "event": "Waterspout",
+            "count": 34
+        },
+        {
+            "date": 6,
+            "event": "Wildfire",
+            "count": 30
+        },
+        {
+            "date": 6,
+            "event": "Winter Weather",
+            "count": 1
+        },
+        {
+            "date": 7,
+            "event": "Coastal Flood",
+            "count": 7
+        },
+        {
+            "date": 7,
+            "event": "Debris Flow",
+            "count": 7
+        },
+        {
+            "date": 7,
+            "event": "Dense Fog",
+            "count": 1
+        },
+        {
+            "date": 7,
+            "event": "Drought",
+            "count": 53
+        },
+        {
+            "date": 7,
+            "event": "Dust Devil",
+            "count": 2
+        },
+        {
+            "date": 7,
+            "event": "Dust Storm",
+            "count": 8
+        },
+        {
+            "date": 7,
+            "event": "Excessive Heat",
+            "count": 167
+        },
+        {
+            "date": 7,
+            "event": "Flash Flood",
+            "count": 869
+        },
+        {
+            "date": 7,
+            "event": "Flood",
+            "count": 361
+        },
+        {
+            "date": 7,
+            "event": "Funnel Cloud",
+            "count": 47
+        },
+        {
+            "date": 7,
+            "event": "Hail",
+            "count": 1064
+        },
+        {
+            "date": 7,
+            "event": "Heat",
+            "count": 313
+        },
+        {
+            "date": 7,
+            "event": "Heavy Rain",
+            "count": 412
+        },
+        {
+            "date": 7,
+            "event": "High Surf",
+            "count": 12
+        },
+        {
+            "date": 7,
+            "event": "High Wind",
+            "count": 5
+        },
+        {
+            "date": 7,
+            "event": "Lightning",
+            "count": 112
+        },
+        {
+            "date": 7,
+            "event": "Marine Hail",
+            "count": 3
+        },
+        {
+            "date": 7,
+            "event": "Marine Thunderstorm Wind",
+            "count": 388
+        },
+        {
+            "date": 7,
+            "event": "Rip Current",
+            "count": 12
+        },
+        {
+            "date": 7,
+            "event": "Strong Wind",
+            "count": 6
+        },
+        {
+            "date": 7,
+            "event": "Thunderstorm Wind",
+            "count": 2991
+        },
+        {
+            "date": 7,
+            "event": "Tornado",
+            "count": 88
+        },
+        {
+            "date": 7,
+            "event": "Tropical Storm",
+            "count": 6
+        },
+        {
+            "date": 7,
+            "event": "Waterspout",
+            "count": 60
+        },
+        {
+            "date": 7,
+            "event": "Wildfire",
+            "count": 65
+        },
+        {
+            "date": 8,
+            "event": "Astronomical Low Tide",
+            "count": 1
+        },
+        {
+            "date": 8,
+            "event": "Coastal Flood",
+            "count": 8
+        },
+        {
+            "date": 8,
+            "event": "Debris Flow",
+            "count": 8
+        },
+        {
+            "date": 8,
+            "event": "Dense Fog",
+            "count": 24
+        },
+        {
+            "date": 8,
+            "event": "Dense Smoke",
+            "count": 5
+        },
+        {
+            "date": 8,
+            "event": "Drought",
+            "count": 64
+        },
+        {
+            "date": 8,
+            "event": "Dust Storm",
+            "count": 3
+        },
+        {
+            "date": 8,
+            "event": "Excessive Heat",
+            "count": 20
+        },
+        {
+            "date": 8,
+            "event": "Flash Flood",
+            "count": 760
+        },
+        {
+            "date": 8,
+            "event": "Flood",
+            "count": 163
+        },
+        {
+            "date": 8,
+            "event": "Funnel Cloud",
+            "count": 43
+        },
+        {
+            "date": 8,
+            "event": "Hail",
+            "count": 769
+        },
+        {
+            "date": 8,
+            "event": "Heat",
+            "count": 131
+        },
+        {
+            "date": 8,
+            "event": "Heavy Rain",
+            "count": 346
+        },
+        {
+            "date": 8,
+            "event": "High Surf",
+            "count": 3
+        },
+        {
+            "date": 8,
+            "event": "High Wind",
+            "count": 7
+        },
+        {
+            "date": 8,
+            "event": "Hurricane",
+            "count": 9
+        },
+        {
+            "date": 8,
+            "event": "Lightning",
+            "count": 52
+        },
+        {
+            "date": 8,
+            "event": "Marine Hail",
+            "count": 5
+        },
+        {
+            "date": 8,
+            "event": "Marine High Wind",
+            "count": 1
+        },
+        {
+            "date": 8,
+            "event": "Marine Hurricane/Typhoon",
+            "count": 6
+        },
+        {
+            "date": 8,
+            "event": "Marine Thunderstorm Wind",
+            "count": 203
+        },
+        {
+            "date": 8,
+            "event": "Marine Tropical Storm",
+            "count": 3
+        },
+        {
+            "date": 8,
+            "event": "Rip Current",
+            "count": 16
+        },
+        {
+            "date": 8,
+            "event": "Storm Surge/Tide",
+            "count": 10
+        },
+        {
+            "date": 8,
+            "event": "Strong Wind",
+            "count": 17
+        },
+        {
+            "date": 8,
+            "event": "Thunderstorm Wind",
+            "count": 1482
+        },
+        {
+            "date": 8,
+            "event": "Tornado",
+            "count": 129
+        },
+        {
+            "date": 8,
+            "event": "Tropical Storm",
+            "count": 44
+        },
+        {
+            "date": 8,
+            "event": "Waterspout",
+            "count": 31
+        },
+        {
+            "date": 8,
+            "event": "Wildfire",
+            "count": 39
+        },
+        {
+            "date": 9,
+            "event": "Avalanche",
+            "count": 1
+        },
+        {
+            "date": 9,
+            "event": "Coastal Flood",
+            "count": 21
+        },
+        {
+            "date": 9,
+            "event": "Debris Flow",
+            "count": 8
+        },
+        {
+            "date": 9,
+            "event": "Dense Fog",
+            "count": 27
+        },
+        {
+            "date": 9,
+            "event": "Dense Smoke",
+            "count": 11
+        },
+        {
+            "date": 9,
+            "event": "Drought",
+            "count": 56
+        },
+        {
+            "date": 9,
+            "event": "Dust Devil",
+            "count": 1
+        },
+        {
+            "date": 9,
+            "event": "Dust Storm",
+            "count": 13
+        },
+        {
+            "date": 9,
+            "event": "Excessive Heat",
+            "count": 15
+        },
+        {
+            "date": 9,
+            "event": "Flash Flood",
+            "count": 217
+        },
+        {
+            "date": 9,
+            "event": "Flood",
+            "count": 63
+        },
+        {
+            "date": 9,
+            "event": "Frost/Freeze",
+            "count": 30
+        },
+        {
+            "date": 9,
+            "event": "Funnel Cloud",
+            "count": 11
+        },
+        {
+            "date": 9,
+            "event": "Hail",
+            "count": 294
+        },
+        {
+            "date": 9,
+            "event": "Heat",
+            "count": 3
+        },
+        {
+            "date": 9,
+            "event": "Heavy Rain",
+            "count": 59
+        },
+        {
+            "date": 9,
+            "event": "Heavy Snow",
+            "count": 6
+        },
+        {
+            "date": 9,
+            "event": "High Surf",
+            "count": 25
+        },
+        {
+            "date": 9,
+            "event": "High Wind",
+            "count": 79
+        },
+        {
+            "date": 9,
+            "event": "Hurricane",
+            "count": 35
+        },
+        {
+            "date": 9,
+            "event": "Lightning",
+            "count": 24
+        },
+        {
+            "date": 9,
+            "event": "Marine Hurricane/Typhoon",
+            "count": 3
+        },
+        {
+            "date": 9,
+            "event": "Marine Thunderstorm Wind",
+            "count": 68
+        },
+        {
+            "date": 9,
+            "event": "Marine Tropical Storm",
+            "count": 27
+        },
+        {
+            "date": 9,
+            "event": "Rip Current",
+            "count": 8
+        },
+        {
+            "date": 9,
+            "event": "Storm Surge/Tide",
+            "count": 22
+        },
+        {
+            "date": 9,
+            "event": "Strong Wind",
+            "count": 37
+        },
+        {
+            "date": 9,
+            "event": "Thunderstorm Wind",
+            "count": 546
+        },
+        {
+            "date": 9,
+            "event": "Tornado",
+            "count": 55
+        },
+        {
+            "date": 9,
+            "event": "Tropical Depression",
+            "count": 14
+        },
+        {
+            "date": 9,
+            "event": "Tropical Storm",
+            "count": 245
+        },
+        {
+            "date": 9,
+            "event": "Waterspout",
+            "count": 36
+        },
+        {
+            "date": 9,
+            "event": "Wildfire",
+            "count": 36
+        },
+        {
+            "date": 9,
+            "event": "Winter Storm",
+            "count": 18
+        },
+        {
+            "date": 9,
+            "event": "Winter Weather",
+            "count": 8
+        },
+        {
+            "date": 10,
+            "event": "Blizzard",
+            "count": 1
+        },
+        {
+            "date": 10,
+            "event": "Coastal Flood",
+            "count": 50
+        },
+        {
+            "date": 10,
+            "event": "Debris Flow",
+            "count": 4
+        },
+        {
+            "date": 10,
+            "event": "Dense Fog",
+            "count": 6
+        },
+        {
+            "date": 10,
+            "event": "Drought",
+            "count": 55
+        },
+        {
+            "date": 10,
+            "event": "Dust Storm",
+            "count": 1
+        },
+        {
+            "date": 10,
+            "event": "Excessive Heat",
+            "count": 12
+        },
+        {
+            "date": 10,
+            "event": "Extreme Cold/Wind Chill",
+            "count": 1
+        },
+        {
+            "date": 10,
+            "event": "Flash Flood",
+            "count": 118
+        },
+        {
+            "date": 10,
+            "event": "Flood",
+            "count": 141
+        },
+        {
+            "date": 10,
+            "event": "Freezing Fog",
+            "count": 1
+        },
+        {
+            "date": 10,
+            "event": "Frost/Freeze",
+            "count": 137
+        },
+        {
+            "date": 10,
+            "event": "Funnel Cloud",
+            "count": 2
+        },
+        {
+            "date": 10,
+            "event": "Hail",
+            "count": 178
+        },
+        {
+            "date": 10,
+            "event": "Heat",
+            "count": 2
+        },
+        {
+            "date": 10,
+            "event": "Heavy Rain",
+            "count": 85
+        },
+        {
+            "date": 10,
+            "event": "Heavy Snow",
+            "count": 19
+        },
+        {
+            "date": 10,
+            "event": "High Surf",
+            "count": 37
+        },
+        {
+            "date": 10,
+            "event": "High Wind",
+            "count": 545
+        },
+        {
+            "date": 10,
+            "event": "Hurricane",
+            "count": 1
+        },
+        {
+            "date": 10,
+            "event": "Lakeshore Flood",
+            "count": 9
+        },
+        {
+            "date": 10,
+            "event": "Lightning",
+            "count": 6
+        },
+        {
+            "date": 10,
+            "event": "Marine High Wind",
+            "count": 15
+        },
+        {
+            "date": 10,
+            "event": "Marine Hurricane/Typhoon",
+            "count": 6
+        },
+        {
+            "date": 10,
+            "event": "Marine Strong Wind",
+            "count": 1
+        },
+        {
+            "date": 10,
+            "event": "Marine Thunderstorm Wind",
+            "count": 122
+        },
+        {
+            "date": 10,
+            "event": "Marine Tropical Depression",
+            "count": 1
+        },
+        {
+            "date": 10,
+            "event": "Marine Tropical Storm",
+            "count": 18
+        },
+        {
+            "date": 10,
+            "event": "Rip Current",
+            "count": 8
+        },
+        {
+            "date": 10,
+            "event": "Storm Surge/Tide",
+            "count": 19
+        },
+        {
+            "date": 10,
+            "event": "Strong Wind",
+            "count": 108
+        },
+        {
+            "date": 10,
+            "event": "Thunderstorm Wind",
+            "count": 428
+        },
+        {
+            "date": 10,
+            "event": "Tornado",
+            "count": 88
+        },
+        {
+            "date": 10,
+            "event": "Tropical Depression",
+            "count": 3
+        },
+        {
+            "date": 10,
+            "event": "Tropical Storm",
+            "count": 45
+        },
+        {
+            "date": 10,
+            "event": "Waterspout",
+            "count": 15
+        },
+        {
+            "date": 10,
+            "event": "Wildfire",
+            "count": 18
+        },
+        {
+            "date": 10,
+            "event": "Winter Storm",
+            "count": 65
+        },
+        {
+            "date": 10,
+            "event": "Winter Weather",
+            "count": 54
+        },
+        {
+            "date": 11,
+            "event": "Avalanche",
+            "count": 2
+        },
+        {
+            "date": 11,
+            "event": "Blizzard",
+            "count": 2
+        },
+        {
+            "date": 11,
+            "event": "Coastal Flood",
+            "count": 11
+        },
+        {
+            "date": 11,
+            "event": "Cold/Wind Chill",
+            "count": 1
+        },
+        {
+            "date": 11,
+            "event": "Debris Flow",
+            "count": 1
+        },
+        {
+            "date": 11,
+            "event": "Dense Fog",
+            "count": 58
+        },
+        {
+            "date": 11,
+            "event": "Drought",
+            "count": 148
+        },
+        {
+            "date": 11,
+            "event": "Flash Flood",
+            "count": 51
+        },
+        {
+            "date": 11,
+            "event": "Flood",
+            "count": 69
+        },
+        {
+            "date": 11,
+            "event": "Frost/Freeze",
+            "count": 36
+        },
+        {
+            "date": 11,
+            "event": "Hail",
+            "count": 51
+        },
+        {
+            "date": 11,
+            "event": "Heat",
+            "count": 10
+        },
+        {
+            "date": 11,
+            "event": "Heavy Rain",
+            "count": 36
+        },
+        {
+            "date": 11,
+            "event": "Heavy Snow",
+            "count": 88
+        },
+        {
+            "date": 11,
+            "event": "High Surf",
+            "count": 29
+        },
+        {
+            "date": 11,
+            "event": "High Wind",
+            "count": 402
+        },
+        {
+            "date": 11,
+            "event": "Lake-Effect Snow",
+            "count": 9
+        },
+        {
+            "date": 11,
+            "event": "Lightning",
+            "count": 2
+        },
+        {
+            "date": 11,
+            "event": "Marine High Wind",
+            "count": 1
+        },
+        {
+            "date": 11,
+            "event": "Marine Thunderstorm Wind",
+            "count": 9
+        },
+        {
+            "date": 11,
+            "event": "Strong Wind",
+            "count": 176
+        },
+        {
+            "date": 11,
+            "event": "Thunderstorm Wind",
+            "count": 299
+        },
+        {
+            "date": 11,
+            "event": "Tornado",
+            "count": 49
+        },
+        {
+            "date": 11,
+            "event": "Waterspout",
+            "count": 6
+        },
+        {
+            "date": 11,
+            "event": "Wildfire",
+            "count": 8
+        },
+        {
+            "date": 11,
+            "event": "Winter Storm",
+            "count": 80
+        },
+        {
+            "date": 11,
+            "event": "Winter Weather",
+            "count": 44
+        },
+        {
+            "date": 12,
+            "event": "Astronomical Low Tide",
+            "count": 2
+        },
+        {
+            "date": 12,
+            "event": "Avalanche",
+            "count": 2
+        },
+        {
+            "date": 12,
+            "event": "Blizzard",
+            "count": 68
+        },
+        {
+            "date": 12,
+            "event": "Cold/Wind Chill",
+            "count": 184
+        },
+        {
+            "date": 12,
+            "event": "Debris Flow",
+            "count": 2
+        },
+        {
+            "date": 12,
+            "event": "Dense Fog",
+            "count": 46
+        },
+        {
+            "date": 12,
+            "event": "Drought",
+            "count": 167
+        },
+        {
+            "date": 12,
+            "event": "Dust Storm",
+            "count": 1
+        },
+        {
+            "date": 12,
+            "event": "Extreme Cold/Wind Chill",
+            "count": 366
+        },
+        {
+            "date": 12,
+            "event": "Flash Flood",
+            "count": 37
+        },
+        {
+            "date": 12,
+            "event": "Flood",
+            "count": 16
+        },
+        {
+            "date": 12,
+            "event": "Frost/Freeze",
+            "count": 21
+        },
+        {
+            "date": 12,
+            "event": "Funnel Cloud",
+            "count": 3
+        },
+        {
+            "date": 12,
+            "event": "Hail",
+            "count": 21
+        },
+        {
+            "date": 12,
+            "event": "Heavy Rain",
+            "count": 7
+        },
+        {
+            "date": 12,
+            "event": "Heavy Snow",
+            "count": 355
+        },
+        {
+            "date": 12,
+            "event": "High Surf",
+            "count": 76
+        },
+        {
+            "date": 12,
+            "event": "High Wind",
+            "count": 319
+        },
+        {
+            "date": 12,
+            "event": "Ice Storm",
+            "count": 6
+        },
+        {
+            "date": 12,
+            "event": "Lake-Effect Snow",
+            "count": 88
+        },
+        {
+            "date": 12,
+            "event": "Marine High Wind",
+            "count": 10
+        },
+        {
+            "date": 12,
+            "event": "Marine Strong Wind",
+            "count": 1
+        },
+        {
+            "date": 12,
+            "event": "Marine Thunderstorm Wind",
+            "count": 28
+        },
+        {
+            "date": 12,
+            "event": "Strong Wind",
+            "count": 67
+        },
+        {
+            "date": 12,
+            "event": "Thunderstorm Wind",
+            "count": 36
+        },
+        {
+            "date": 12,
+            "event": "Tornado",
+            "count": 13
+        },
+        {
+            "date": 12,
+            "event": "Waterspout",
+            "count": 4
+        },
+        {
+            "date": 12,
+            "event": "Wildfire",
+            "count": 10
+        },
+        {
+            "date": 12,
+            "event": "Winter Storm",
+            "count": 397
+        },
+        {
+            "date": 12,
+            "event": "Winter Weather",
+            "count": 916
+        },
+        {
+            "date": 2,
+            "event": "Astronomical Low Tide",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Astronomical Low Tide",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Astronomical Low Tide",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Astronomical Low Tide",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Astronomical Low Tide",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Astronomical Low Tide",
+            "count": 0
+        },
+        {
+            "date": 9,
+            "event": "Astronomical Low Tide",
+            "count": 0
+        },
+        {
+            "date": 10,
+            "event": "Astronomical Low Tide",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Astronomical Low Tide",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Avalanche",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Avalanche",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Avalanche",
+            "count": 0
+        },
+        {
+            "date": 10,
+            "event": "Avalanche",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Blizzard",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Blizzard",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Blizzard",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Blizzard",
+            "count": 0
+        },
+        {
+            "date": 9,
+            "event": "Blizzard",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Coastal Flood",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 9,
+            "event": "Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 10,
+            "event": "Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 1,
+            "event": "Dense Smoke",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Dense Smoke",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Dense Smoke",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Dense Smoke",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Dense Smoke",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Dense Smoke",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Dense Smoke",
+            "count": 0
+        },
+        {
+            "date": 10,
+            "event": "Dense Smoke",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Dense Smoke",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Dense Smoke",
+            "count": 0
+        },
+        {
+            "date": 1,
+            "event": "Dust Devil",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Dust Devil",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Dust Devil",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Dust Devil",
+            "count": 0
+        },
+        {
+            "date": 10,
+            "event": "Dust Devil",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Dust Devil",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Dust Devil",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Dust Devil",
+            "count": 0
+        },
+        {
+            "date": 1,
+            "event": "Dust Storm",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Dust Storm",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Dust Storm",
+            "count": 0
+        },
+        {
+            "date": 1,
+            "event": "Excessive Heat",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Excessive Heat",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Excessive Heat",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Excessive Heat",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Excessive Heat",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Excessive Heat",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Extreme Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Extreme Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Extreme Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Extreme Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Extreme Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Extreme Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 9,
+            "event": "Extreme Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Extreme Cold/Wind Chill",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Freezing Fog",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Freezing Fog",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Freezing Fog",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Freezing Fog",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Freezing Fog",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Freezing Fog",
+            "count": 0
+        },
+        {
+            "date": 9,
+            "event": "Freezing Fog",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Freezing Fog",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Freezing Fog",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Frost/Freeze",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Frost/Freeze",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Funnel Cloud",
+            "count": 0
+        },
+        {
+            "date": 1,
+            "event": "Heat",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Heat",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Heat",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Heat",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Heat",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Heavy Snow",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Heavy Snow",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Heavy Snow",
+            "count": 0
+        },
+        {
+            "date": 1,
+            "event": "Hurricane",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Hurricane",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Hurricane",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Hurricane",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Hurricane",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Hurricane",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Hurricane",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Hurricane",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Hurricane",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Ice Storm",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Ice Storm",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Ice Storm",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Ice Storm",
+            "count": 0
+        },
+        {
+            "date": 9,
+            "event": "Ice Storm",
+            "count": 0
+        },
+        {
+            "date": 10,
+            "event": "Ice Storm",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Ice Storm",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Lake-Effect Snow",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Lake-Effect Snow",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Lake-Effect Snow",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Lake-Effect Snow",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Lake-Effect Snow",
+            "count": 0
+        },
+        {
+            "date": 9,
+            "event": "Lake-Effect Snow",
+            "count": 0
+        },
+        {
+            "date": 10,
+            "event": "Lake-Effect Snow",
+            "count": 0
+        },
+        {
+            "date": 1,
+            "event": "Lakeshore Flood",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Lakeshore Flood",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Lakeshore Flood",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Lakeshore Flood",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Lakeshore Flood",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Lakeshore Flood",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Lakeshore Flood",
+            "count": 0
+        },
+        {
+            "date": 9,
+            "event": "Lakeshore Flood",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Lakeshore Flood",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Lakeshore Flood",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Lightning",
+            "count": 0
+        },
+        {
+            "date": 9,
+            "event": "Marine Hail",
+            "count": 0
+        },
+        {
+            "date": 10,
+            "event": "Marine Hail",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Marine Hail",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Marine Hail",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Marine High Wind",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Marine High Wind",
+            "count": 0
+        },
+        {
+            "date": 9,
+            "event": "Marine High Wind",
+            "count": 0
+        },
+        {
+            "date": 1,
+            "event": "Marine Hurricane/Typhoon",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Marine Hurricane/Typhoon",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Marine Hurricane/Typhoon",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Marine Hurricane/Typhoon",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Marine Hurricane/Typhoon",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Marine Hurricane/Typhoon",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Marine Hurricane/Typhoon",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Marine Hurricane/Typhoon",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Marine Hurricane/Typhoon",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Marine Strong Wind",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Marine Strong Wind",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Marine Strong Wind",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Marine Strong Wind",
+            "count": 0
+        },
+        {
+            "date": 9,
+            "event": "Marine Strong Wind",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Marine Strong Wind",
+            "count": 0
+        },
+        {
+            "date": 1,
+            "event": "Marine Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Marine Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Marine Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Marine Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Marine Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Marine Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Marine Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Marine Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 9,
+            "event": "Marine Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Marine Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Marine Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 1,
+            "event": "Marine Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Marine Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Marine Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Marine Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Marine Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Marine Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Marine Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Marine Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Rip Current",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Rip Current",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Rip Current",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Sleet",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Sleet",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Sleet",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Sleet",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Sleet",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Sleet",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Sleet",
+            "count": 0
+        },
+        {
+            "date": 9,
+            "event": "Sleet",
+            "count": 0
+        },
+        {
+            "date": 10,
+            "event": "Sleet",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Sleet",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Sleet",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Sneakerwave",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Sneakerwave",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Sneakerwave",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Sneakerwave",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Sneakerwave",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Sneakerwave",
+            "count": 0
+        },
+        {
+            "date": 9,
+            "event": "Sneakerwave",
+            "count": 0
+        },
+        {
+            "date": 10,
+            "event": "Sneakerwave",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Sneakerwave",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Sneakerwave",
+            "count": 0
+        },
+        {
+            "date": 1,
+            "event": "Storm Surge/Tide",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Storm Surge/Tide",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Storm Surge/Tide",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Storm Surge/Tide",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Storm Surge/Tide",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Storm Surge/Tide",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Storm Surge/Tide",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Storm Surge/Tide",
+            "count": 0
+        },
+        {
+            "date": 1,
+            "event": "Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Tropical Depression",
+            "count": 0
+        },
+        {
+            "date": 6,
+            "event": "Winter Storm",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Winter Storm",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Winter Storm",
+            "count": 0
+        },
+        {
+            "date": 7,
+            "event": "Winter Weather",
+            "count": 0
+        },
+        {
+            "date": 8,
+            "event": "Winter Weather",
+            "count": 0
+        },
+        {
+            "date": 1,
+            "event": "Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 2,
+            "event": "Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 3,
+            "event": "Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 4,
+            "event": "Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 5,
+            "event": "Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 12,
+            "event": "Tropical Storm",
+            "count": 0
+        },
+        {
+            "date": 11,
+            "event": "Dust Storm",
+            "count": 0
+        }
+    ]
+}
