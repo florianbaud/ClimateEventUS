@@ -17,9 +17,8 @@ function mapchart() {
         // on récupère les valeurs de total_damages_scaled
         var values = [];
         for (var i = 0; i < json.features.length; i++) {
-            values.push(Math.log(json.features[i][test.value].total_damages_scaled));
+            values.push(json.features[i][test.value].total_damages_scaled);
         }
-        console.log(Math.log(3))
         var color = d3.scaleSequential(d3.interpolateYlOrRd)
             .domain([d3.min(values), d3.max(values)]);
         svg2.selectAll("path")
@@ -28,7 +27,7 @@ function mapchart() {
             .append("path")
             .attr("d", path)
             .style("fill", function (d) {
-                var value = Math.log(d[test.value].total_damages_scaled);
+                var value = d[test.value].total_damages_scaled;
                 if (value) { return color(value); } else { return "#ccc"; }
             })
             .on("mousemove", function (d) {
@@ -48,7 +47,7 @@ function mapchart() {
                 // on recupere les valeurs de total_damages_scaled
                 var values = [];
                 for (var i = 0; i < json.features.length; i++) {
-                    values.push(Math.log(json.features[i][test.value].total_damages_scaled));
+                    values.push(json.features[i][test.value].total_damages_scaled);
                 }
                 var color = d3.scaleSequential(d3.interpolateYlOrRd)
                     .domain([d3.min(values), d3.max(values)]);
@@ -56,7 +55,7 @@ function mapchart() {
                 svg2.selectAll("path")
                     .transition(duration = 500)
                     .style("fill", function (d) {
-                        var value = Math.log(d[test.value].total_damages_scaled);
+                        var value = d[test.value].total_damages_scaled;
                         if (value) { return color(value); } else { return "#ccc"; }
                     })
             });
