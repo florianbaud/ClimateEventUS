@@ -21,6 +21,8 @@ Pour la partie temporelle, on a fait une HeatMap qui représente la fréquence d
 
 #### Inspiration
 GeoMap : https://lyondataviz.github.io/teaching/lyon1-m2/2018/tp5.html
+WordCloud : https://jsfiddle.net/plantface/g6faeurj/
+HeatMap : https://codepen.io/ubershibs/pen/JbKVPJ
 <br></br>
 
 
@@ -47,3 +49,6 @@ For the temporal part, we made a HeatMap which represents the frequency of the d
 
 #### Inspiration
 GeoMap : https://lyondataviz.github.io/teaching/lyon1-m2/2018/tp5.html
+WordCloud : https://jsfiddle.net/plantface/g6faeurj/
+HeatMap : https://codepen.io/ubershibs/pen/JbKVPJ
+<br></br>
