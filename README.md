@@ -1,22 +1,24 @@
 <i>https://florianbaud.github.io/#</i>
 
-Dataset : https://catalog.data.gov/dataset/ncdc-storm-events-database (ne marche pas actuellement).
-
-## Influence des événements climatiques aux Etats-Unis sur le prix des assurances.
+## Evénements climatiques aux Etats-Unis : saisonalité et influence sur le prix des assurances.
 #### Projet réalisé par Cheikh Toure, Rhizlaine Degni, Floriand Baud et Antoine Vendeville.
 
-Ce projet a pour but de mettre en évidence le lien entre les dégâts causés par les événements climatiques aux US et le prix des assurances habitation.
-On a utilisé un dataset qui recense plus de 50 000 événements climatiques aux Etats-Unis durant l'année 2017, avec un peu plus de 50 types d'événement
-différents (orage, tornade, ...). Pour chaque événement on a notamment les états qui ont été touchés et les dommages causés (en $). Pour chaque type
-d'événement on a créé une carte de Etats-Unis où chaque état est colorié suivant l'importance des dégâts causés par tous les événements de ce type cumulés.
-A côté on observe un nuage de mot : chaque état y est représenté avec une taille proportionnelle au prix des assurances habitation dans cet état. On peut ainsi
-observer la correspondance entre les dégâts causés par les événements climatiques et le prix des assurances dans chaque état.
-Par ailleurs, on a également, fait une HeatMap qui représente la fréquence des différents événements climatiques au fil de l'année. On observe ainsi l'impact
+#### Dataset
+Le dataset est disponible à l'adresse suivante https://catalog.data.gov/dataset/ncdc-storm-events-database (ne marche pas actuellement en raison du blocage administratif aux Etats-Unis). Il contient des données sur plus de 50 millions d'événements climatiques survenus aux Etats-Unis durant l'année 2017, de plus de 50 types différents : tornade, inondation, sécheresse, ... On a notamment, pour chaque événement, les états touchés, le nombre de blessés, le nombre de morts et l'évaluation des dégâts causés en $.
+
+#### Objectifs
+Notre objectif se décompose en deux parties. Premièrement, essayer d'établir une corrélation entre les dégâts causés par les catastrophes naturelles aux Etats-Unis et le prix des assurances habitation. Deuxièmement, établir une visualisation temporelle des occurences d'événements de chaque type afin de déterminer en quelles saisons se produit chaque type d'événements.
+
+#### Intérêt
+Cette visualisation peut servir aux gens désirant déménager aux Etats-Unis, afin qu'ils sachent dans quel état ils ont le moins de chances d'être touchés par une catastrophe naturelle et/ou dans lesquels ils paieront l'assurance habitation la moins chère. La visualisation temporelle permet de savoir quels états sont les plus dangereux à un moment donné dans l'année.
+
+#### Réalisation
+Pour la partie assurance, on a juxtaposée une carte des Etats-Unis et un wordcloud. Sur le wordcloud, chaque état est représenté avec une taille proportionnelle au prix des assurances habitations. On peut comparer avec la carte : lorsqu'on sélectionne un type d'événement, les états y sont colorés en fonction des dégâts causés par tous les événements de ce type cumulés. On peut ainsi
+observer la corrélation entre les dégâts causés par les événements climatiques et le prix des assurances.
+
+Pour la partie visualisation, on a fait une HeatMap qui représente la fréquence des différents types événements climatiques au fil de l'année. Chaque case correspond à un mois (en abscisse) et un type d'événement (en ordonnée) et est coloriée en fonction du nombre d'événements de ce type qui ont été observés durant le mois. On peut ainsi voir à quelle période se produisent les différents événements.
+
+On observe ainsi l'impact
 des saisons sur les type d'événements rencontrés.
 
 <br></br>
-
-## Influence of weather events in the United States on the price of insurance. 
-#### Project directed by Cheikh Toure, Rhizlaine Degni, Floriand Baud and Antoine Vendeville.
-
-This project aims to highlight the link between the damage caused by climate events in the US and the price of home insurance. We used a dataset that lists more than 50 000 climate events in the United States during the year 2017, with just over 50 different types of events (storm, tornado, ...). For each event we have the states that have been affected and the damage caused (in $). For each type of event, a map of the United States has been created where each state is colored according to the amount of damage caused by all such accumulated events. Next to it is a cloud of words: each state is represented with a size proportional to the price of home insurance in this state. We can observe the correspondence between the damage caused by climate events and the price of insurance in each state. In addition, we have also done a HeatMap which represents the frequency of different climatic events throughout the year. We observe the impact of the seasons on the types of events encountered.
