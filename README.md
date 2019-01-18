@@ -1,5 +1,6 @@
 ## Evénements climatiques aux Etats-Unis : saisonalité et influence sur le prix des assurances.
 <i>https://florianbaud.github.io/#
+ 
  Projet réalisé par Cheikh Toure, Rhizlaine Degni, Floriand Baud et Antoine Vendeville.</i>
 
 #### Dataset
