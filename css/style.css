@@ -8,6 +8,9 @@ body {
 
 .overwordcloud {
     font-weight: bold;
+    font-size: 100px;
+    stroke: rgb(7, 7, 7);
+    stroke-width: 2px;
 }
 
 #button {
@@ -17,7 +20,7 @@ body {
 .province {
     fill: #000;
     stroke: #fff;
-    stroke-width: 1px;
+    stroke-width: 2px;
 }
 
 .province:hover {
