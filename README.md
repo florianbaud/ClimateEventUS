@@ -19,6 +19,8 @@ Pour la partie assurance, on a juxtaposée une carte des Etats-Unis et un wordcl
 
 Pour la partie temporelle, on a fait une HeatMap qui représente la fréquence des différents types événements climatiques au fil de l'année. Chaque case correspond à un mois (en abscisse) et un type d'événement (en ordonnée) et est coloriée en fonction du nombre d'événements de ce type qui ont été observés durant le mois. On observe ainsi l'impact des saisons sur les type d'événements rencontrés.
 
+#### Inspiration
+GeoMap : https://lyondataviz.github.io/teaching/lyon1-m2/2018/tp5.html
 <br></br>
 
 
@@ -42,3 +44,6 @@ This visualization can be used by people wishing to move to the United States, s
 For the insurance part, we juxtaposed a map of the United States and a wordcloud. On the wordcloud, each state is represented with a size proportional to the price of home insurance. One can compare with the map: when selecting a type of event, the states are colored there according to the damage caused by all the cumulated events of this type. By hovering over the states, the damage and the number of deaths are displayed, and the state is highlighted in the wordcloud (and vice versa when you mouse over a state in the wordcloud). We can thus observe the correlation between the damage caused by climate events and the price of insurance.
 
 For the temporal part, we made a HeatMap which represents the frequency of the different types of climatic events throughout the year. Each box corresponds to one month (in abscissa) and one type of event (in ordinate) and is colored according to the number of events of this type which were observed during the month. We observe the impact of the seasons on the types of events encountered.
+
+#### Inspiration
+GeoMap : https://lyondataviz.github.io/teaching/lyon1-m2/2018/tp5.html
