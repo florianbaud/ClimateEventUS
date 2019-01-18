@@ -5,6 +5,7 @@ https://florianbaud.github.io/# (disponible sur mobile également)
 
 ### Dataset
 Le dataset concernant les événements climatiques est disponible à l'adresse suivante https://catalog.data.gov/dataset/ncdc-storm-events-database (ne marche pas actuellement en raison du blocage administratif aux Etats-Unis). Il contient des données sur plus de 50 millions d'événements climatiques survenus aux Etats-Unis durant l'année 2017, de plus de 50 types différents : tornade, inondation, sécheresse, ... On a notamment, pour chaque événement, les états touchés, le nombre de blessés, le nombre de morts et l'évaluation des dégâts causés en $.
+
 En ce qui concerne le prix des assurances habitation, les données sont à l'adresse https://quotewizard.com/news/posts/home-insurance-rate-increase-by-state.
 
 ### Objectifs
@@ -28,6 +29,7 @@ https://florianbaud.github.io/# (also available on mobile)
 
 ### Dataset
 The climate events dataset is available at https://catalog.data.gov/dataset/ncdc-storm-events-database (does not currently work due to administrative blocking in the US). It contains data on more than 50 million climatic events in the United States during the year 2017, of more than 50 different types: tornado, flood, drought, ... For each event, the states affected, the number of injuries, the number of deaths and the damage assessment in $.
+
 Regarding the price of home insurance, the data is at https://quotewizard.com/news/posts/home-insurance-rate-increase-by-state.
 
 ### Objectives
