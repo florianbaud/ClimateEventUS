@@ -6,6 +6,10 @@ body {
     position: absolute;
 } */
 
+.overwordcloud {
+    font-weight: bold;
+}
+
 #button {
     text-align: center;
 }
