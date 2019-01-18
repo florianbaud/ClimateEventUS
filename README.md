@@ -1,4 +1,4 @@
-## Evénements climatiques aux Etats-Unis : saisonalité et influence sur le prix des assurances.
+<center> ## Evénements climatiques aux Etats-Unis : saisonalité et influence sur le prix des assurances.
 <i>Projet réalisé par Cheikh Toure, Rhizlaine Degni, Floriand Baud et Antoine Vendeville.</i>
 
 #### Dataset
