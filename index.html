@@ -39,35 +39,45 @@
 
     <div class="container-fluid" id='main'>
         <div class="row">
-            <div class="col-md-12 mb-5">
+            <div class="col-md-12">
                 <h1 class='text-center' id='title'>Impact of climate events on the price of home insurance in the
                     United States</h1>
             </div>
-            <!-- <div class="col-md-5">
-                <form class="form-inline">
-                    <div class="form-group mx-sm-3 mt-2">
-                        <label class="mr-sm-2" for="events">Evènement :</label>
-                        <select class="form-control" id="events">
-                        </select>
-                    </div>
-                </form>
-            </div> -->
         </div>
     </div>
 
     <div class="container-fluid">
         <div class="row">
+            <div class="col-md-12 mb-5">
+                <p class="text-justify">In the USA, recent studies show that average home insurance rates have risen in
+                    the last decade. In most common home insurance policy, insurance company will repair or replace
+                    home and stuff if they’re stolen, damaged, or destroyed by Lightning, fire, hail, hurricane or any
+                    disaster listed in the homeowner’s policy. Moreover, a study by the National Centers for
+                    Environmental Information found that 2017 was by far the most expensive year for disasters in
+                    America with damages exceeding $300 billion. That’s why we chose to visualize on a geo map the
+                    financial damage of each natural disaster in order to discover which states are the most impacted
+                    by climate events. On another side, we represented the price of home insurance for each state. The
+                    bigger home insurance price is, the bigger the name of the state.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mb-5">
+        <div class="row">
             <div class="col-md-7">
-                <div class="row-md-5">
+                <div class="row-md-1">
                     <form class="form-inline justify-content-center">
                         <div class="form-group mx-sm mt">
-                            <label class="mr-sm-2" for="events">Event :</label>
+                            <label class="mr-sm-2" for="events">Choose event :</label>
                             <select class="form-control" id="events">
                             </select>
                         </div>
                     </form>
                 </div>
-                <div class="row-md-7" id="map"></div>
+                <div class="row-md-10" id="map"></div>
+                <div class="d-flex justify-content-center">
+                    <div class="col-md-6" id="legend2"></div>
+                </div>
             </div>
             <div class="col-md-5">
                 <div class="row-md-5">
@@ -78,25 +88,54 @@
         </div>
     </div>
 
-    <!-- <div class="container-fluid">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12" id="wordcloud"></div>
+            <div class="col-md-12">
+                <p class="text-justify">We can easily see the correlation between natural disasters and home insurance
+                    prices. We have one exception, California. California is the second-most natural disaster prone
+                    state in America just after Oklahoma. But home insurance companies doesn’t cover the majority of
+                    natural disasters. To be covered, you need to buy a separate policy. That’s why, California is one
+                    of the states with the lower home insurance prices. In contrary, we can see that Texas, and
+                    Oklahoma are often facing natural disasters and are part of the states with the higher home
+                    insurance.</p>
+            </div>
         </div>
-    </div> -->
+    </div>
+
+    <div class="container-fluid mb-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class='text-center'>Number of occurences of each type of events throughout the year 2017</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-justify">2017 was the most expensive year for disasters in America. That’s why we chose
+                    to represent the number of occurrence for each climate event with a heat map. We can easily
+                    determine which events are the most frequent : thunderstorm wind and hail. Moreover, we observe the
+                    impact of seasons on the different events. Some happens only during cold months and other during
+                    hot months. For example, High Wind happens during cold months and Heavy Rain during hot months.</p>
+            </div>
+        </div>
+    </div>
 
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12" id="heatmap"></div>
         </div>
     </div>
-    <div class="container-fluid">
+
+    <div class="container-fluid mb-5">
         <div class="d-flex justify-content-center">
             <div class="col-md-4" id="legend1"></div>
         </div>
     </div>
 
     <div class="row" id="footer">
-        <div class="col-lg-12">Baud Florian - All rights reserved</div>
+        <div class="col-lg-12">Toure Cheikh, Vendeville Antoine, Degni Rhizlaine, Baud Florian - All rights reserved</div>
     </div>
 
     <script>

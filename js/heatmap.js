@@ -100,7 +100,7 @@ function heatmap() {
             .attr("width", '100%')
             .attr("height", '100%')
             .attr('preserveAspectRatio', "none")
-            .attr('viewBox', "0 0 " + (w + 50) + " " + (h));
+            .attr('viewBox', "0 0 " + (w + 3) + " " + (h));
             // .attr("width", '100%')
             // .attr("height", '100%');
 
@@ -139,7 +139,7 @@ function heatmap() {
             .style("fill", "url(#gradient)")
             .attr("transform", "translate(0,10)");
 
-        var z = d3.scaleBand().range([0, w + 30])
+        var z = d3.scaleBand().range([0, w])
             .domain(["100", "200", "300", "400", ">500"])
 
         var zAxis = d3.axisBottom()
