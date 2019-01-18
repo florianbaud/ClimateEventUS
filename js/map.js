@@ -30,6 +30,9 @@ function mapchart() {
             .data(json.features)
             .enter()
             .append("path")
+            .attr("id", function (d) {
+                return d.properties.name + 'map';
+            })
             .attr("d", path)
             .style("fill", function (d) {
                 var value = Math.sqrt(d[test.value].total_damages_scaled);
@@ -42,12 +45,12 @@ function mapchart() {
                     // .attr("style", "left:" + (mouse[0] + 15) + "px;top:" + (mouse[1] - 35) + "px")
                     .attr("style", "left:" + (d3.event.pageX + 10) + "px;top:" + (d3.event.pageY - 150) + "px")
                     .html("<center><b>" + d.properties.name + "</b></br><i>" + d[test.value].nb_event + " events</i></br>Injuries : " + d[test.value].total_injuries + "</br>" + "Deaths : " + d[test.value].total_deaths + "</br>" + "Damages : " + d[test.value].total_damages + " $ </center>");
-                d3.select('#' + d.properties.name).classed('overwordcloud', true);
+                d3.select('#' + d.properties.name + 'wordcloud').classed('overwordcloud', true);
             })
             .on("mouseout", function (d) {
                 d3.select(this).style("stroke", "");
                 tooltip.classed("hidden", true);
-                d3.select('#' + d.properties.name).classed('overwordcloud', false);
+                d3.select('#' + d.properties.name + 'wordcloud').classed('overwordcloud', false);
             }
             );
         d3.select('#events')

@@ -51,12 +51,23 @@ function drawSkillCloud(words) {
         })
         .attr("text-anchor", "middle")
         .attr("id",function (d) {
-            return d.text;
+            return d.text + 'wordcloud';
         })
         .attr("transform", function (d) {
             return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
         })
         .text(function (d) {
             return d.text;
+        })
+        .on("mousemove", function (d) {
+            d3.select('#' + d.text + 'map').style("stroke", "#000000");
+            d3.select(this).classed('overwordcloud', true);
+            // d3.select('#' + d.properties.name + 'wordcloud').classed('overwordcloud', true);
+        })
+        .on("mouseout", function (d) {
+            d3.select('#' + d.text + 'map').style("stroke", "");
+            d3.select(this).classed('overwordcloud', false);
+            // tooltip.classed("hidden", true);
+            // d3.select('#' + d.properties.name + 'wordcloud').classed('overwordcloud', false);
         });
 }
