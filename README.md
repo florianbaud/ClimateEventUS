@@ -1,7 +1,5 @@
-<i>https://florianbaud.github.io/#</i>
-
 ## Evénements climatiques aux Etats-Unis : saisonalité et influence sur le prix des assurances.
-#### Projet réalisé par Cheikh Toure, Rhizlaine Degni, Floriand Baud et Antoine Vendeville.
+<i>Projet réalisé par Cheikh Toure, Rhizlaine Degni, Floriand Baud et Antoine Vendeville.</i>
 
 #### Dataset
 Le dataset est disponible à l'adresse suivante https://catalog.data.gov/dataset/ncdc-storm-events-database (ne marche pas actuellement en raison du blocage administratif aux Etats-Unis). Il contient des données sur plus de 50 millions d'événements climatiques survenus aux Etats-Unis durant l'année 2017, de plus de 50 types différents : tornade, inondation, sécheresse, ... On a notamment, pour chaque événement, les états touchés, le nombre de blessés, le nombre de morts et l'évaluation des dégâts causés en $.
@@ -16,9 +14,6 @@ Cette visualisation peut servir aux gens désirant déménager aux Etats-Unis, a
 Pour la partie assurance, on a juxtaposée une carte des Etats-Unis et un wordcloud. Sur le wordcloud, chaque état est représenté avec une taille proportionnelle au prix des assurances habitations. On peut comparer avec la carte : lorsqu'on sélectionne un type d'événement, les états y sont colorés en fonction des dégâts causés par tous les événements de ce type cumulés. On peut ainsi
 observer la corrélation entre les dégâts causés par les événements climatiques et le prix des assurances.
 
-Pour la partie visualisation, on a fait une HeatMap qui représente la fréquence des différents types événements climatiques au fil de l'année. Chaque case correspond à un mois (en abscisse) et un type d'événement (en ordonnée) et est coloriée en fonction du nombre d'événements de ce type qui ont été observés durant le mois. On peut ainsi voir à quelle période se produisent les différents événements.
-
-On observe ainsi l'impact
-des saisons sur les type d'événements rencontrés.
+Pour la partie visualisation, on a fait une HeatMap qui représente la fréquence des différents types événements climatiques au fil de l'année. Chaque case correspond à un mois (en abscisse) et un type d'événement (en ordonnée) et est coloriée en fonction du nombre d'événements de ce type qui ont été observés durant le mois. On observe ainsi l'impact des saisons sur les type d'événements rencontrés.
 
 <br></br>
