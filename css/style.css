@@ -2,6 +2,16 @@ body {
     background-color: #e9ebee;
 }
 
+div#footer {
+    color: grey;
+    padding-top: 50px;
+    margin-right: 0px;
+    text-align: center;
+    background-color: #cce6d1;
+    padding-bottom: 50px;
+    border-top: 1px solid grey; 
+}
+
 .jumbotron {
     text-align: center;
     padding-top: 10rem;

@@ -9,7 +9,7 @@ function mapchart() {
         .attr("width", '100%')
         .attr("height", '100%')
         .attr('preserveAspectRatio', "none")
-        .attr('viewBox', "-50 0 "+ (width + 120) + " " + (height + 200) )
+        .attr('viewBox', "0 0 "+ (width + 25) + " " + (height + 49) )
         // .attr('transform','translate(-75,0)')
         .attr("id", "mapchart");
     var projection = d3.geoAlbersUsa().translate([width / 2, height / 2])

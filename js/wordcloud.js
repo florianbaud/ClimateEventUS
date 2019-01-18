@@ -27,7 +27,7 @@ function drawSkillCloud(words) {
         .attr("width", '100%')
         .attr("height", '100%')
         .attr('preserveAspectRatio', "none")
-        .attr('viewBox', "-50 0 "+ (widthcloud + 120) + " " + (heightcloud + 200) )
+        .attr('viewBox', "0 0 "+ (widthcloud) + " " + (heightcloud) )
         // .attr('transform', 'translate(-75,0)')
         .attr('id', 'wordcloudsvg')
         .append("g")

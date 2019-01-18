@@ -1,6 +1,6 @@
 function heatmap() {
     d3.json("./data/heat.json", (data) => {
-        
+
         var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
         var colors = d3.scaleSequential(d3.interpolateYlOrRd)
@@ -72,7 +72,7 @@ function heatmap() {
             .attr("width", '100%')
             .attr("height", '100%')
             .attr('preserveAspectRatio', "none")
-            .attr('viewBox', "-50 0 "+ (width + 120) + " " + (height + 200) )
+            .attr('viewBox', "-100 0 " + (width + 200) + " " + (height + 100))
             .append("g")
             .attr("transform", "translate(" + 60 + "," + 50 + ")")
 
@@ -93,23 +93,67 @@ function heatmap() {
 
         var padding = 0;
 
-        // colors.forEach((color) => {
+        var w = 300, h = 50;
 
-        //     legend.append("rect")
-        //             .attr("width", 30)
-        //             .attr("height", 30)
-        //             .attr("x", padding)
-        //             .attr("y", height)
-        //             .style("fill", color)
+        var key = d3.select("#legend1")
+            .append("svg")
+            .attr("width", '100%')
+            .attr("height", '100%')
+            .attr('preserveAspectRatio', "none")
+            .attr('viewBox', "0 0 " + (w + 50) + " " + (h));
+            // .attr("width", '100%')
+            // .attr("height", '100%');
 
-        //     padding += 30;
-        // });
+        var legend = key.append("defs")
+            .append("svg:linearGradient")
+            .attr("id", "gradient")
+            .attr("x1", "0%")
+            .attr("y1", "100%")
+            .attr("x2", "100%")
+            .attr("y2", "100%")
+            .attr("spreadMethod", "pad");
 
-        legend.append("text")
-            .text("Legend")
-            .attr("x", 0)
-            .attr("y", height + 42)
-            .attr("class", "legend-text")
+        legend.append("stop")
+            .attr("offset", "0%")
+            .attr("stop-color", d3.interpolateYlOrRd(0))
+            .attr("stop-opacity", 1);
+
+        legend.append("stop")
+            .attr("offset", "33%")
+            .attr("stop-color", d3.interpolateYlOrRd(0.33))
+            .attr("stop-opacity", 1);
+
+        legend.append("stop")
+            .attr("offset", "66%")
+            .attr("stop-color", d3.interpolateYlOrRd(0.66))
+            .attr("stop-opacity", 1);
+
+        legend.append("stop")
+            .attr("offset", "100%")
+            .attr("stop-color", d3.interpolateYlOrRd(1))
+            .attr("stop-opacity", 1);
+
+        key.append("rect")
+            .attr("width", w)
+            .attr("height", h - 30)
+            .style("fill", "url(#gradient)")
+            .attr("transform", "translate(0,10)");
+
+        var z = d3.scaleBand().range([0, w + 30])
+            .domain(["100", "200", "300", "400", ">500"])
+
+        var zAxis = d3.axisBottom()
+            .scale(z)
+            .ticks(5);
+
+        key.append("g")
+            .attr("class", "y axis")
+            .attr("transform", "translate(0,30)")
+            .call(zAxis)
+            .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("z", 0)
+            .attr("dy", ".71em")
 
         var type = [];
         var month = [];
@@ -121,7 +165,7 @@ function heatmap() {
 
         var rectangleWidth = width / 12;
         var rectangleHeight = height / 49;
-        var tooltip = d3.select("body").append("div").attr("id", "tooltip2").attr("class","hidden tooltip");
+        var tooltip = d3.select("body").append("div").attr("id", "tooltip2").attr("class", "hidden tooltip");
         // var tooltip = d3.select("body").append("div")
         //     .attr("class", "hidden tooltip")
         //     .attr("id", 'tooltip2');
@@ -142,7 +186,7 @@ function heatmap() {
                 return colors(d.count);
             })
             .on("mousemove", function (d, i) {
-                current_month = months[parseInt(d.date)-1]
+                current_month = months[parseInt(d.date) - 1]
                 d3.select(this).style("stroke", "#000000");
                 tooltip//.style('opacity', 1)
                     .classed("hidden", false)
